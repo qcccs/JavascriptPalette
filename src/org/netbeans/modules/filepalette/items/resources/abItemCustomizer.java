@@ -2,7 +2,7 @@ package org.netbeans.modules.filepalette.items.resources;
 
 //~--- non-JDK imports --------------------------------------------------------
 
-import org.netbeans.modules.filepalette.items.bo;
+import org.netbeans.modules.filepalette.items.sw;
 
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
@@ -24,7 +24,7 @@ public class abItemCustomizer extends javax.swing.JPanel {
     private Dialog           dialog     = null;
     private DialogDescriptor descriptor = null;
     private boolean          dialogOK   = false;
-    bo                       ifitem;
+    sw                       ifitem;
     JTextComponent           target;
 
     // Variables declaration - do not modify
@@ -36,7 +36,7 @@ public class abItemCustomizer extends javax.swing.JPanel {
      * @param item
      * @param target
      */
-    public abItemCustomizer(bo item, JTextComponent target) {
+    public abItemCustomizer(sw item, JTextComponent target) {
         this.ifitem = item;
         this.target = target;
         initComponents();

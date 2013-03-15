@@ -1460,6 +1460,16 @@ java.lang.Object
 org.netbeans.modules.filepalette.items.resources.ByteVarPopup
 org.netbeans.modules.filepalette.items.resources.ByteVarPopup$2
 java.awt.event.ActionListener
+||:org.netbeans.modules.filepalette.items.sw
+java.lang.StringBuilder
+javax.swing.text.BadLocationException
+org.netbeans.modules.filepalette.items.resources.abItemCustomizer
+org.netbeans.modules.filepalette.items.FilePaletteUtilities
+org.openide.text.ActiveEditorDrop
+org.netbeans.modules.filepalette.items.sw
+java.lang.Object
+javax.swing.text.JTextComponent
+java.lang.String
 ||:org.netbeans.modules.filepalette.items.resources.ByteVarPopup$1
 java.lang.Object
 java.awt.Dialog
@@ -1995,7 +2005,6 @@ org.openide.DialogDescriptor
 java.lang.Exception
 org.netbeans.api.editor.EditorRegistry
 javax.swing.text.BadLocationException
-org.netbeans.modules.filepalette.items.resources.VariableTypeComboBoxModel
 org.openide.util.NbBundle
 javax.swing.JComboBox
 javax.swing.LayoutStyle
@@ -2004,7 +2013,6 @@ javax.swing.JPanel
 javax.swing.LayoutStyle$ComponentPlacement
 java.lang.StringBuilder
 org.netbeans.modules.filepalette.items.resources.NewObjectPopup
-org.netbeans.modules.filepalette.items.resources.ForLoopPopup$5
 edu.mass.qcc.qcccodewizard.CheckVariableName
 org.netbeans.modules.filepalette.items.resources.ForLoopPopup$4
 javax.swing.GroupLayout$SequentialGroup
@@ -2021,8 +2029,8 @@ org.netbeans.modules.filepalette.items.ForLoop
 java.lang.Object
 javax.swing.GroupLayout$Alignment
 org.openide.util.Exceptions
-java.lang.Throwable
 javax.swing.JTextField
+java.lang.Throwable
 java.lang.Boolean
 javax.swing.JOptionPane
 javax.swing.GroupLayout$ParallelGroup
@@ -2393,8 +2401,8 @@ org.netbeans.modules.filepalette.items.resources.abItemCustomizer
 org.jdesktop.layout.GroupLayout
 javax.swing.JTextField
 org.netbeans.modules.filepalette.items.resources.ItemCustomizer
+org.netbeans.modules.filepalette.items.sw
 org.jdesktop.layout.GroupLayout$Group
-org.netbeans.modules.filepalette.items.bo
 javax.swing.JLabel
 org.netbeans.modules.filepalette.items.resources.abItemCustomizer$1
 org.jdesktop.layout.GroupLayout$SequentialGroup

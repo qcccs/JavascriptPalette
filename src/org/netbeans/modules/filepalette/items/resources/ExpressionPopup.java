@@ -246,7 +246,7 @@ public class ExpressionPopup extends javax.swing.JPanel {
 
     private void jLabel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseClicked
         // Help Page
-        OpenHelpUrl o = new OpenHelpUrl("http://www.cplusplus.com");
+        OpenHelpUrl o = new OpenHelpUrl("http://www.w3schools.com/js/js_ex_dom.asp");
     }//GEN-LAST:event_jLabel32MouseClicked
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addExp;

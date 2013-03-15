@@ -19,7 +19,6 @@
             
             <file name="Item.xml" url="Item.xml"/>
             <file name="clssitem.xml" url="clssitem.xml"/>
-            <file name="clsitem.xml" url="clsitem.xml"/>
             <file name="NewFunction.xml" url="NewFunction.xml"/>
             <file name="NewObject.xml" url="NewObject.xml"/>
             
@@ -27,16 +26,7 @@
         </folder>
         <folder name="Variables">
             <file name="IntegerVar.xml" url="IntegerVar.xml"/>
-            <file name="ShortVar.xml" url="ShortVar.xml"/>
-            <file name="LongVar.xml" url="LongVar.xml"/>
-            <file name="BooleanVar.xml" url="BooleanVar.xml"/>
-            
-            <file name="CharVar.xml" url="CharVar.xml"/>
-            <file name="StringVar.xml" url="StringVar.xml"/>
-            <file name="DoubleVar.xml" url="DoubleVar.xml"/>
-            <file name="FloatVar.xml" url="FloatVar.xml"/>
-            <file name="Expression.xml" url="Expression.xml"/>
-            <file name="IntegerItem.xml" url="IntegerItem.xml"/>
+            <file name="StringArray.xml" url="StringArray.xml"/>
         </folder>
         
         <folder name="Decisions">
@@ -44,8 +34,6 @@
             <file name="Else.xml" url="Else.xml"/>
             <file name="ElseIf.xml" url="ElseIf.xml"/>
             <file name="SwitchCase.xml" url="SwitchCase.xml"/>
-            <file name="Expression.xml" url="Expression.xml"/>
-        <file name="IfDescision.xml" url="IfDescision.xml"/>
 </folder>
         <folder name="Loops">
             
@@ -54,28 +42,18 @@
             <file name="ForEach.xml" url="ForEach.xml"/>
             <file name="ForLoop.xml" url="ForLoop.xml"/>
             <file name="Expression.xml" url="Expression.xml"/>
-            
-        <file name="ForLoop.xml" url="ForLoop.xml"/>
-</folder>
-        <folder name="Arrays">
-            <file name="StringArray.xml" url="StringArray.xml"/>
-            <file name="IntegerArray.xml" url="IntegerArray.xml"/>
-            <file name="CharArray.xml" url="CharArray.xml"/>
-            <file name="DoubleArray.xml" url="DoubleArray.xml"/>
-            
-        </folder>
-        
+            <file name="ForLoop.xml" url="ForLoop.xml"/>
+</folder>        
         <folder name="Input Output">
             <file name="PrintConsole.xml" url="PrintConsole.xml"/>
             <file name="ReadConsole.xml" url="ReadConsole.xml"/>
             <file name="TryCatch.xml" url="TryCatch.xml"/>
-        <file name="Print.xml" url="Print.xml"/>
+            <file name="Print.xml" url="Print.xml"/>
 </folder> 
                        
         <folder name="Comments and JavaDoc">
             <file name="InLineComment.xml" url="InLineComment.xml"/>
             <file name="FullComment.xml" url="FullComment.xml"/>
-            <file name="JavaDocComment.xml" url="JavaDocComment.xml"/>
         </folder>
                 
         <folder name="Student Directory">

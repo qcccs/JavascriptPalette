@@ -297,7 +297,7 @@ public class SwitchCasePopup extends javax.swing.JPanel {
 
     private void jLabel34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MouseClicked
         // Help Page
-        OpenHelpUrl o = new OpenHelpUrl("http://www.cplusplus.com");
+        OpenHelpUrl o = new OpenHelpUrl("http://www.w3schools.com/js/js_ex_dom.asp");
     }//GEN-LAST:event_jLabel34MouseClicked
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;

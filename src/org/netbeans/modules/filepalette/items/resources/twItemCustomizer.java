@@ -2,7 +2,7 @@ package org.netbeans.modules.filepalette.items.resources;
 
 //~--- non-JDK imports --------------------------------------------------------
 
-import org.netbeans.modules.filepalette.items.tw;
+import org.netbeans.modules.filepalette.items.th;
 
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
@@ -24,7 +24,7 @@ public class twItemCustomizer extends javax.swing.JPanel {
     private Dialog           dialog     = null;
     private DialogDescriptor descriptor = null;
     private boolean          dialogOK   = false;
-    tw                       ifitem;
+    th                       ifitem;
     JTextComponent           target;
 
     // Variables declaration - do not modify
@@ -36,7 +36,7 @@ public class twItemCustomizer extends javax.swing.JPanel {
      * @param item
      * @param target
      */
-    public twItemCustomizer(tw item, JTextComponent target) {
+    public twItemCustomizer(th item, JTextComponent target) {
         this.ifitem = item;
         this.target = target;
         initComponents();

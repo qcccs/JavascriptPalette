@@ -26,6 +26,9 @@
         <attr name="WinSys-TCRef-Order" stringvalue="watchesView/localsView/resultsView/callstackView/breakpointsView/classes/sources/sessionsView/threadsView/bookmarks/eventsView/profiler_to/profiler_pp/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/CallHierarchyTopComponent/AnalyzerTopComponent/JavadocTopComponent/TerminalContainerTopComponent/output/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/ReporterResultTopComponent/AnalysisResultTopComponent"/>
     </fileobject>
     <fileobject name="properties">
-        <attr name="WinSys-TCRef-Order" stringvalue="CssStylesTC/JavaHierarchyTopComponent/AnalyzeStackTopComponent/properties"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="JavaHierarchyTopComponent/AnalyzeStackTopComponent/properties"/>
+    </fileobject>
+    <fileobject name="rightSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="CssStylesTC"/>
     </fileobject>
 </attributes>

@@ -2,7 +2,7 @@ package org.netbeans.modules.filepalette.items.resources;
 
 //~--- non-JDK imports --------------------------------------------------------
 
-import org.netbeans.modules.filepalette.items.iffmacro;
+import org.netbeans.modules.filepalette.items.ifmacro;
 
 import org.openide.DialogDescriptor;
 import org.openide.DialogDisplayer;
@@ -24,7 +24,7 @@ public class dowhilemacroItemCustomizer extends javax.swing.JPanel {
     private Dialog           dialog     = null;
     private DialogDescriptor descriptor = null;
     private boolean          dialogOK   = false;
-    iffmacro             ifitem;
+    ifmacro             ifitem;
     JTextComponent           target;
 
     // Variables declaration - do not modify
@@ -36,7 +36,7 @@ public class dowhilemacroItemCustomizer extends javax.swing.JPanel {
      * @param item
      * @param target
      */
-    public dowhilemacroItemCustomizer(iffmacro item, JTextComponent target) {
+    public dowhilemacroItemCustomizer(ifmacro item, JTextComponent target) {
         this.ifitem = item;
         this.target = target;
         initComponents();
