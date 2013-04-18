@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.openide.util">
+    <module_version install_time="1366297353655" last="true" origin="NetBeans Distribution" specification_version="8.29.2">
+        <file crc="3298874072" name="config/ModuleAutoDeps/org-openide-util.xml"/>
+        <file crc="82052535" name="lib/locale/org-openide-util_ja.jar"/>
+        <file crc="827528324" name="lib/locale/org-openide-util_pt_BR.jar"/>
+        <file crc="3068850501" name="lib/locale/org-openide-util_ru.jar"/>
+        <file crc="21150004" name="lib/locale/org-openide-util_zh_CN.jar"/>
+        <file crc="2481557279" name="lib/org-openide-util.jar"/>
+    </module_version>
+</module>

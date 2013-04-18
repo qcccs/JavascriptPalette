@@ -51,7 +51,7 @@
             <file name="Print.xml" url="Print.xml"/>
 </folder> 
                        
-        <folder name="Comments and JavaDoc">
+        <folder name="Comments">
             <file name="InLineComment.xml" url="InLineComment.xml"/>
             <file name="FullComment.xml" url="FullComment.xml"/>
         </folder>
@@ -65,7 +65,6 @@
             <file name="ifeitem.xml" url="ifeitem.xml"/>
             <file name="iffitem.xml" url="iffitem.xml"/>
             <file name="incitem.xml" url="incitem.xml"/>
-            <file name="nsitem.xml" url="nsitem.xml"/>
             <file name="whileitem.xml" url="whileitem.xml"/>
             
         </folder>

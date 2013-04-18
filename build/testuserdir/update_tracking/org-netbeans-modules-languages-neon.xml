@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.languages.neon">
+    <module_version install_time="1366297349467" last="true" origin="NetBeans Distribution" specification_version="1.7.2">
+        <file crc="2672015365" name="VERSION.txt"/>
+        <file crc="2631534697" name="config/Modules/org-netbeans-modules-languages-neon.xml"/>
+        <file crc="431608974" name="modules/locale/org-netbeans-modules-languages-neon_ja.jar"/>
+        <file crc="1428704410" name="modules/locale/org-netbeans-modules-languages-neon_pt_BR.jar"/>
+        <file crc="3402178812" name="modules/locale/org-netbeans-modules-languages-neon_ru.jar"/>
+        <file crc="503069435" name="modules/locale/org-netbeans-modules-languages-neon_zh_CN.jar"/>
+        <file crc="3533179640" name="modules/org-netbeans-modules-languages-neon.jar"/>
+    </module_version>
+</module>

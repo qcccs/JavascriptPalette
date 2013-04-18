@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Thursday, March 14, 2013 1:24:42 PM EDT
+>Log Session: Thursday, April 18, 2013 11:02:50 AM EDT
 >System Info: 
   Product Version         = NetBeans IDE 7.3 (Build 201302132200) (#93e87decaddf)
   Operating System        = Windows 7 version 6.1 running on amd64
@@ -24,7 +24,7 @@
                             C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\cluster
                             C:\Program Files (x86)\NetBeans 7.3\platform
   Boot & Ext. Classpath   = C:\Program Files\Java\jdk1.7.0_15\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_15\jre\classes;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_15\jre\lib\ext\zipfs.jar
-  Application Classpath   = C:\Program Files (x86)\NetBeans 7.3\platform\lib\boot.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\org-openide-modules.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\org-openide-util-lookup.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\org-openide-util.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.7.0_15\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_15\lib\tools.jar
+  Application Classpath   = C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\jfluid-server-15.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\jfluid-server-cvm.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\jfluid-server.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\org-openide-util.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\jfluid-server_ja.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\jfluid-server_pt_BR.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\jfluid-server_ru.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\jfluid-server_zh_CN.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\org-openide-util_ja.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\org-openide-util_pt_BR.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\org-openide-util_ru.jar;C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\boot.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\org-openide-modules.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\org-openide-util-lookup.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\boot_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\Java\jdk1.7.0_15\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_15\lib\tools.jar
   Startup Classpath       = C:\Program Files (x86)\NetBeans 7.3\platform\core\core.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\org-openide-filesystems.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\core_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\core_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\core_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\core_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files (x86)\NetBeans 7.3\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\org-netbeans-upgrader.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\locale\core_nb.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files (x86)\NetBeans 7.3\nb\core\locale\org-netbeans-upgrader_zh_CN.jar
 -------------------------------------------------------------------------------
 WARNING [org.netbeans.modules.netbinox]: Cannot compute install area. No common prefix between C:\Program Files (x86)\NetBeans 7.3\ and C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\cluster
@@ -36,7 +36,7 @@ WARNING [org.netbeans.core.projects.cache]: layer jar:file:/C:/Users/Tim/Documen
 WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up build_info at org.netbeans.modules.uihandler.BuildInfo.logBuildInfo(BuildInfo.java:84)
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.19.1 201302132200]
-	org.openide.util [8.29.1 201302132200]
+	org.openide.util [8.29.2 201303242200]
 	org.openide.modules [7.35.1 201302132200]
 	org.openide.filesystems [8.5.1 201302132200]
 	org.netbeans.api.annotations.common/1 [1.17.1 201302132200]
@@ -46,26 +46,26 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.nodes [7.33.1 201302132200]
 	org.openide.windows [6.60.1 201302132200]
 	org.netbeans.modules.editor.mimelookup/1 [1.29.1 201302132200]
-	org.openide.text [6.54.1 201302132200]
+	org.openide.text [6.54.2 201303242200]
 	org.netbeans.swing.tabcontrol [1.42.1 201302132200]
-	org.netbeans.swing.outline [1.23.1 201302132200]
-	org.openide.explorer [6.50.1 201302132200]
+	org.netbeans.swing.outline [1.23.2 201303242200]
+	org.openide.explorer [6.50.2 201303242200]
 	org.openide.actions [6.29.1 201302132200]
 	org.netbeans.modules.queries/1 [1.32.1 201302132200]
-	org.openide.loaders [7.44.1 201302132200]
+	org.openide.loaders [7.44.2 201303242200]
 	org.openide.io [1.35.1 201302132200]
 	org.openide.execution [1.30.1 201302132200]
 	org.netbeans.upgrader [4.25.1 201302132200]
 	org.netbeans.swing.plaf [1.30.1 201302132200]
 	org.netbeans.modules.projectapi/1 [1.50.1 201302132200]
 	org.netbeans.swing.dirchooser [1.19.1 201302132200]
-	org.netbeans.spi.viewmodel/2 [1.39.1 201302132200]
+	org.netbeans.spi.viewmodel/2 [1.39.2 201303242200]
 	org.netbeans.spi.tasklist/1 [1.22.1.1 1 201302132200]
 	org.netbeans.spi.quicksearch [1.17.1 201302132200]
 	org.netbeans.spi.palette/1 [1.35.1 201302132200]
 	org.netbeans.spi.navigator/1 [1.27.1 201302132200]
 	org.netbeans.libs.javacapi [7.13.1.3 3 201302132200]
-	org.netbeans.libs.javacimpl/1 [0.30.1.20 20 201302132200]
+	org.netbeans.libs.javacimpl/1 [0.30.2.20 20 201303242200]
 	org.netbeans.modules.classfile/1 [1.38.1 201302132200]
 	org.netbeans.modules.projectuiapi/1 [1.65.1.8 8 201302132200]
 	org.netbeans.modules.project.indexingbridge [1.7.1 201302132200]
@@ -87,19 +87,19 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.xml.catalog/2 [1.31.1.4 4 201302132200]
 	org.netbeans.modules.project.ant/1 [1.51.1 201302132200]
 	org.jdesktop.layout/1 [1.24.1 201302132200]
-	org.netbeans.api.search [1.8.1 201302132200]
+	org.netbeans.api.search [1.8.2 201303242200]
 	org.netbeans.modules.java.project/1 [1.50.1 201302132200]
 	org.netbeans.modules.editor.util/1 [1.52.1 201302132200]
-	org.netbeans.modules.lexer/2 [1.49.1.1 1 201302132200]
+	org.netbeans.modules.lexer/2 [1.49.2.1 1 201303242200]
 	org.netbeans.modules.editor.settings/1 [1.46.1 201302132200]
-	org.netbeans.modules.editor.lib2/1 [1.71.1.40 40 201302132200]
+	org.netbeans.modules.editor.lib2/1 [1.71.2.40 40 201303242200]
 	org.netbeans.modules.editor.fold/1 [1.32.1.40 201302132200]
 	org.netbeans.modules.editor.indent/2 [1.31.1 201302132200]
-	org.netbeans.modules.editor.lib/3 [3.33.2.21.40 21 201302132200]
-	org.netbeans.modules.editor/3 [1.70.1.5.21.40 5 201302132200]
+	org.netbeans.modules.editor.lib/3 [3.33.3.21.40 21 201303242200]
+	org.netbeans.modules.editor/3 [1.70.2.5.21.40 5 201303242200]
 	org.netbeans.modules.autoupdate.services [1.39.1 201302132200]
 	org.netbeans.modules.settings/1 [1.38.1 201302132200]
-	org.netbeans.core.windows/2 [2.58.1 201302132200]
+	org.netbeans.core.windows/2 [2.58.2 201303242200]
 	org.netbeans.modules.autoupdate.ui [1.33.1 201302132200]
 	org.netbeans.spi.editor.hints/0 [1.28.1.7.40 7 201302132200]
 	org.netbeans.modules.editor.errorstripe.api/1 [2.23.1.1 1 201302132200]
@@ -110,7 +110,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.diff/1 [1.41.1.42.1 42 201302132200]
 	org.netbeans.modules.editor.guards/1 [1.20.1 201302132200]
 	org.netbeans.libs.lucene/3 [3.10.1 201302132200]
-	org.netbeans.modules.masterfs/2 [2.41.1 201302132200]
+	org.netbeans.modules.masterfs/2 [2.41.2 201303242200]
 	org.netbeans.modules.parsing.lucene/2 [2.20.1.1 1 201302132200]
 	org.netbeans.modules.parsing.api/1 [1.62.1.6 6 201302132200]
 	org.netbeans.modules.refactoring.api [1.33.2.1 1 201302132200]
@@ -119,8 +119,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.java.lexer/1 [1.21.1 201302132200]
 	org.netbeans.modules.java.preprocessorbridge [1.29.1.1 1 201302132200]
 	org.netbeans.modules.editor.indent.project/0 [1.12.1 201302132200]
-	org.netbeans.modules.java.source [0.110.1.23.1.20.6 23 201302132200]
-	org.netbeans.spi.java.hints [1.10.1.9.1.20.23.6 9 201302132200]
+	org.netbeans.modules.java.source [0.110.2.23.1.20.6 23 201303242200]
+	org.netbeans.spi.java.hints [1.10.2.10.1.20.23.6 10 201303242200]
 	org.netbeans.api.debugger/1 [1.40.1 201302132200]
 	org.netbeans.spi.debugger.ui/1 [2.37.1 201302132200]
 	org.netbeans.modules.xml.core/2 [1.33.1.4 4 201302132200]
@@ -129,7 +129,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.core.ui/1 [1.35.1 201302132200]
 	org.netbeans.modules.jumpto/1 [1.33.1.1 1 201302132200]
 	org.netbeans.modules.editor.breadcrumbs/0 [1.5.1 201302132200]
-	org.netbeans.modules.csl.api/2 [2.33.1.2.1.1.6 2 201302132200]
+	org.netbeans.modules.csl.api/2 [2.33.2.2.1.1.6 2 201303242200]
 	org.netbeans.modules.xml.lexer [1.20.1 201302132200]
 	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.12.2.1.5.21.40 1 201302132200]
 	org.netbeans.modules.editor.structure/1 [1.36.1.1 1 201302132200]
@@ -157,7 +157,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.core.execution/1 [1.31.1 201302132200]
 	org.netbeans.modules.favorites/1 [1.32.1 201302132200]
 	org.netbeans.modules.sendopts/2 [2.25.1 201302132200]
-	org.netbeans.modules.projectui [1.40.1.8 201302132200]
+	org.netbeans.modules.projectui [1.40.2.8 201303242200]
 	org.netbeans.modules.welcome/1 [1.32.1 201302132200]
 	org.netbeans.modules.websvc.wsstackapi/0 [1.16.1 201302132200]
 	org.netbeans.modules.websvc.wsitmodelext [3.20.1 201302132200]
@@ -178,8 +178,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.java.sourceui/1 [1.30.1.1.23 1 201302132200]
 	org.netbeans.modules.java.editor.lib/1 [1.27.1 201302132200]
 	org.netbeans.modules.gototest/1 [1.21.1 201302132200]
-	org.netbeans.modules.refactoring.java/1 [1.41.1.1 1 201302132200]
-	org.netbeans.modules.java.editor/1 [2.49.1.9.1.1 9 201302132200]
+	org.netbeans.modules.refactoring.java/1 [1.41.3.1 1 201303242200]
+	org.netbeans.modules.java.editor/1 [2.49.2.9.1.1 9 201303242200]
 	org.netbeans.modules.j2ee.eclipselink/1 [1.16.1 201302132200]
 	org.netbeans.modules.j2ee.core.utilities/0 [1.21.1 201302132200]
 	org.netbeans.modules.j2ee.persistence [1.33.1.1 1 201302132200]
@@ -214,14 +214,14 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.libs.glassfish_logging/1 [1.19.1.20 20 201302132200]
 	org.netbeans.lib.terminalemulator [1.24.1 201302132200]
 	org.netbeans.modules.terminal [1.13.1 201302132200]
-	org.netbeans.core.output2/1 [1.30.1 201302132200]
-	org.netbeans.modules.web.jspparser/3 [3.18.1 201302132200]
+	org.netbeans.core.output2/1 [1.30.2 201303242200]
+	org.netbeans.modules.web.jspparser/3 [3.18.2 201303242200]
 	org.netbeans.modules.gsf.testrunner/1 [1.31.1 201302132200]
 	org.netbeans.modules.java.testrunner [1.5.1 201302132200]
 	org.netbeans.modules.junit/2 [2.54.1 201302132200]
 	org.netbeans.modules.web.common [1.29.1 201302132200]
 	org.netbeans.modules.ant.browsetask [1.31.1 201302132200]
-	org.netbeans.modules.web.project [1.41.1.1 1 201302132200]
+	org.netbeans.modules.web.project [1.41.2.1 1 201303242200]
 	org.netbeans.modules.websvc.wsitconf [3.22.1 201302132200]
 	org.netbeans.modules.websvc.saas.ui [1.18.1 201302132200]
 	org.netbeans.modules.websvc.saas.services.zvents [1.18.1 201302132200]
@@ -245,7 +245,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.css.model [1.13.1 201302132200]
 	org.netbeans.modules.css.editor/1 [1.40.1 201302132200]
 	org.netbeans.modules.html.editor/2 [2.13.1 201302132200]
-	org.netbeans.modules.javascript2.editor/1 [0.4.1 201302132200]
+	org.netbeans.modules.javascript2.editor/1 [0.4.2 201303242200]
 	org.netbeans.modules.javascript2.kit/1 [0.3.1 201302132200]
 	org.netbeans.core.browser/1 [1.17.1.1 1 201302132200]
 	org.netbeans.modules.editor.plain.lib/1 [1.24.1 201302132200]
@@ -256,7 +256,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.libs.jvyamlb/1 [0.20.1 201302132200]
 	org.netbeans.modules.languages.yaml [2.22.1 201302132200]
 	org.netbeans.modules.properties/1 [1.43.1 201302132200]
-	org.netbeans.modules.editor.search [1.10.1.0.40 0 201302132200]
+	org.netbeans.modules.editor.search [1.10.2.0.40 0 201303242200]
 	org.netbeans.modules.languages.manifest [1.22.1 201302132200]
 	org.netbeans.modules.languages.diff [1.23.1 201302132200]
 	org.netbeans.modules.image/1 [1.38.1 201302132200]
@@ -267,14 +267,14 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.commons.logging [1.1.1 1.1.1]
 	org.netbeans.modules.html.validation/1 [1.18.1 201302132200]
 	org.netbeans.modules.editor.kit [1.22.1 201302132200]
-	org.netbeans.modules.utilities/1 [1.47.1 201302132200]
-	org.netbeans.modules.tasklist.ui/1 [1.21.1.1 201302132200]
+	org.netbeans.modules.utilities/1 [1.47.2 201303242200]
+	org.netbeans.modules.tasklist.ui/1 [1.21.2.1 201303242200]
 	org.netbeans.modules.tasklist.todo/1 [1.21.1.1 1 201302132200]
 	org.netbeans.modules.tasklist.projectint/1 [1.19.1 201302132200]
 	org.netbeans.modules.tasklist.kit [1.19.1 201302132200]
 	com.jcraft.jsch [0.1.45 0.1.45]
 	org.netbeans.libs.jna/1 [1.25.1 201302132200]
-	org.netbeans.modules.dlight.nativeexecution [1.25.1.1 1 201302132200]
+	org.netbeans.modules.dlight.nativeexecution [1.25.2.1 1 201303242200]
 	org.netbeans.modules.dlight.terminal [1.13.1.1 1 201302132200]
 	org.netbeans.modules.usersguide/1 [1.39.1 201302132200]
 	org.netbeans.modules.print.editor [7.17.1 201302132200]
@@ -286,8 +286,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.core.kit [1.20.1 201302132200]
 	org.netbeans.modules.editor.macros/0 [1.21.1.1.21 1 201302132200]
 	org.netbeans.modules.netserver [1.3.1 201302132200]
-	org.netbeans.modules.extbrowser/1 [1.34.1 201302132200]
-	org.netbeans.modules.defaults/1 [1.22.1 201302132200]
+	org.netbeans.modules.extbrowser/1 [1.34.2 201303242200]
+	org.netbeans.modules.defaults/1 [1.22.2 201303242200]
 	org.netbeans.modules.ide.kit [1.22.1 201302132200]
 	org.netbeans.modules.websvc.saas.kit [1.18.1 201302132200]
 	org.netbeans.modules.websvc.saas.codegen.j2ee [1.17.1 201302132200]
@@ -305,17 +305,17 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.db.kit [1.21.1 201302132200]
 	org.netbeans.modules.websvc.metro.samples/1 [1.19.1 201302132200]
 	org.netbeans.modules.websvc.customization [1.19.1.2 201302132200]
-	org.netbeans.modules.java.hints.legacy.spi/1 [1.5.1.1.9 1 201302132200]
+	org.netbeans.modules.java.hints.legacy.spi/1 [1.5.1.1.10 1 201303242200]
 	org.netbeans.modules.web.beans/2 [2.2.1 201302132200]
 	org.netbeans.modules.debugger.jpda.projects [1.24.1 201302132200]
 	org.netbeans.modules.debugger.jpda/2 [1.42.1 201302132200]
-	org.netbeans.modules.debugger.jpda.ui/1 [1.30.1 201302132200]
+	org.netbeans.modules.debugger.jpda.ui/1 [1.30.2 201303242200]
 	org.netbeans.modules.web.debug/1 [2.29.1 201302132200]
 	org.netbeans.modules.web.examples/1 [1.26.1 201302132200]
 	org.netbeans.modules.j2ee.samples [1.21.1 201302132200]
 	org.netbeans.modules.web.monitor/1 [1.35.1 201302132200]
 	org.netbeans.modules.web.clientproject.api [1.14.1 201302132200]
-	org.netbeans.modules.web.javascript.debugger [1.2.1 201302132200]
+	org.netbeans.modules.web.javascript.debugger [1.2.2 201303242200]
 	org.netbeans.modules.j2ee.ant [1.27.1.1 201302132200]
 	org.netbeans.modules.j2ee.weblogic9/1 [1.29.1.1 1 201302132200]
 	org.netbeans.modules.j2ee.ejbcore [1.32.1 201302132200]
@@ -324,13 +324,13 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.j2ee.jboss4/1 [1.29.1 201302132200]
 	org.netbeans.modules.websvc.rest/0 [1.18.1 201302132200]
 	org.netbeans.modules.web.client.rest [1.2.1 201302132200]
-	org.netbeans.modules.java.navigation/1 [1.28.1 201302132200]
+	org.netbeans.modules.java.navigation/1 [1.28.2 201303242200]
 	org.netbeans.modules.beans/1 [1.39.1.1.9 1 201302132200]
 	org.netbeans.modules.ant.freeform/1 [1.35.1 201302132200]
 	org.netbeans.modules.java.freeform/1 [1.33.1 201302132200]
 	org.netbeans.modules.java.j2seplatform/1 [1.29.1 201302132200]
 	org.netbeans.modules.projectimport.eclipse.core/1 [2.20.1 201302132200]
-	org.netbeans.modules.java.hints/1 [1.69.1.13.9.1.23.6.1.9 13 201302132200]
+	org.netbeans.modules.java.hints/1 [1.69.2.13.9.1.23.6.1.10 13 201303242200]
 	org.netbeans.modules.debugger.jpda.ant [1.28.1 201302132200]
 	org.netbeans.modules.java.j2seproject/1 [1.56.1.46 46 201302132200]
 	org.netbeans.modules.javadoc/1 [1.44.1 201302132200]
@@ -344,8 +344,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.findbugs.installer [1.5.1 201302132200]
 	org.netbeans.modules.testng.ant [2.4.1 201302132200]
 	org.netbeans.modules.java.debug [1.26.1.1.20.23 1 201302132200]
-	org.netbeans.modules.java.hints.ui [1.6.1.1.9 1 201302132200]
-	org.netbeans.modules.java.hints.declarative/1 [1.10.1.1.13.1.9 1 201302132200]
+	org.netbeans.modules.java.hints.ui [1.6.1.1.10 1 201303242200]
+	org.netbeans.modules.java.hints.declarative/1 [1.10.1.1.13.1.10 1 201303242200]
 	org.netbeans.modules.java.source.ant [1.20.1.1.23 1 201302132200]
 	org.netbeans.modules.javawebstart [1.21.1 201302132200]
 	org.netbeans.modules.java.helpset/1 [1.19.1 201302132200]
@@ -371,18 +371,18 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.web.el [1.23.1 201302132200]
 	org.netbeans.modules.jsp.lexer/1 [1.19.1 201302132200]
 	org.netbeans.modules.target.iterator/1 [1.13.1 201302132200]
-	org.netbeans.modules.web.core/2 [2.22.1.43.2 43 201302132200]
-	org.netbeans.modules.web.core.syntax/2 [2.34.1.2.9 2 201302132200]
+	org.netbeans.modules.web.core/2 [2.22.2.43.2 43 201303242200]
+	org.netbeans.modules.web.core.syntax/2 [2.34.2.2.9 2 201303242200]
 	org.netbeans.modules.web.jsfapi/1 [1.17.1 201302132200]
 	org.netbeans.modules.web.freeform [1.25.1 201302132200]
 	org.netbeans.libs.jstestdriver [1.2.1 201302132200]
-	org.netbeans.modules.javascript.jstestdriver [1.2.1 201302132200]
+	org.netbeans.modules.javascript.jstestdriver [1.2.2 201303242200]
 	org.netbeans.modules.web.clientproject [1.12.1 201302132200]
 	org.netbeans.modules.web.client.samples [1.1.1 201302132200]
 	org.netbeans.modules.web.clientproject.helpset/0 [1.2.1 201302132200]
 	org.netbeans.modules.web.client.kit [1.0.1 201302132200]
 	org.netbeans.modules.web.helpset/0 [1.15.1 201302132200]
-	org.netbeans.modules.languages.neon [1.7.1 201302132200]
+	org.netbeans.modules.languages.neon [1.7.2 201303242200]
 	org.netbeans.modules.web.jstl11/1 [2.26.1.112 112 201302132200]
 	org.netbeans.modules.tomcat5/1 [1.32.1 201302132200]
 	org.netbeans.modules.javaee.beanvalidation [1.10.1 201302132200]
@@ -400,7 +400,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.websvc.restkit/0 [1.17.1 201302132200]
 	org.netbeans.libs.commons_fileupload/1 [1.18.1 201302132200]
 	org.netbeans.modules.web.struts/1 [1.25.1.1 1 201302132200]
-	org.netbeans.modules.web.jsf/1 [1.44.1.2 2 201302132200]
+	org.netbeans.modules.web.jsf/1 [1.44.2.2 2 201303242200]
 	org.netbeans.modules.web.jsf.navigation/1 [2.19.1 201302132200]
 	org.netbeans.modules.web.jsf20/1 [1.17.1.1 1 201302132200]
 	org.netbeans.modules.web.jsf12/1 [1.18.1.12 12 201302132200]
@@ -410,7 +410,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.web.primefaces [1.60.1 201302132200]
 	org.netbeans.modules.web.jsf.richfaces [1.19.1 201302132200]
 	org.netbeans.modules.web.jsf.icefaces [1.8.1 201302132200]
-	org.netbeans.modules.versioning.core/1 [1.10.1.1.42 1 201302132200]
+	org.netbeans.modules.versioning.core/1 [1.10.2.1.42 1 201303242200]
 	org.netbeans.modules.versioning/1 [1.37.1.1 1 201302132200]
 	org.netbeans.modules.versioning.util [1.37.1.42.1 201302132200]
 	org.netbeans.modules.versioning.ui/1 [1.9.1.42.1 201302132200]
@@ -420,21 +420,21 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.utilities.project/1 [1.27.1 201302132200]
 	org.netbeans.modules.updatecenters/1 [1.30.1 201302132200]
 	org.netbeans.lib.uihandler [1.34.1 201302132200]
-	org.netbeans.modules.uihandler [2.24.1 201302132200]
+	org.netbeans.modules.uihandler [2.24.2 201303242200]
 	org.netbeans.modules.uihandler.exceptionreporter [1.19.1 201302132200]
 	org.netbeans.modules.maven.embedder/2 [2.36.1 201302132200]
 	org.netbeans.modules.maven.model/1 [1.26.1 201302132200]
 	org.netbeans.modules.maven.indexer/2 [2.21.1 201302132200]
 	org.netbeans.modules.swing.validation/2 [1.22.1 201302132200]
-	org.netbeans.modules.maven/2 [2.67.1 201302132200]
+	org.netbeans.modules.maven/2 [2.67.2 201303242200]
 	org.netbeans.modules.testng.maven [2.4.1 201302132200]
 	org.netbeans.libs.svnClientAdapter/1 [1.28.1 201302132200]
 	org.netbeans.libs.ini4j/1 [1.21.1 201302132200]
-	org.netbeans.modules.subversion [1.29.1.42.1 201302132200]
+	org.netbeans.modules.subversion [1.29.2.42.1 201303242200]
 	org.netbeans.libs.cglib/1 [1.17.1 201302132200]
 	org.netbeans.libs.springframework [1.23.1 201302132200]
 	org.netbeans.modules.spring.beans/0 [1.27.1.1 1 201302132200]
-	org.netbeans.modules.spring.webmvc [1.23.1 201302132200]
+	org.netbeans.modules.spring.webmvc [1.23.2 201303242200]
 	org.netbeans.modules.spellchecker [1.25.1.1.7 1 201302132200]
 	org.netbeans.modules.spellchecker.kit [1.16.1 201302132200]
 	org.netbeans.modules.spellchecker.dictionary_en [1.13.1 201302132200]
@@ -445,7 +445,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.projectimport.eclipse.j2se [1.18.1.46 201302132200]
 	org.netbeans.modules.progress.ui [1.23.1 201302132200]
 	org.netbeans.modules.profiler.utilities/1 [1.25.1 201302132200]
-	org.netbeans.lib.profiler/1 [1.23.1 201302132200]
+	org.netbeans.lib.profiler/1 [1.23.2 201303242200]
 	org.netbeans.lib.profiler.common/1 [1.23.1 201302132200]
 	org.netbeans.modules.profiler.api/1 [1.9.1 201302132200]
 	org.netbeans.lib.profiler.charts/1 [1.17.1 201302132200]
@@ -464,7 +464,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.profiler.categorization.api/1 [1.7.1 201302132200]
 	org.netbeans.modules.profiler.nbimpl/1 [1.7.1 201302132200]
 	org.netbeans.modules.profiler.nbmodule/1 [1.24.1 201302132200]
-	org.netbeans.modules.profiler.heapwalker [1.7.1 201302132200]
+	org.netbeans.modules.profiler.heapwalker [1.7.2 201303242200]
 	org.netbeans.modules.profiler.drilldown/1 [1.6.1 201302132200]
 	org.netbeans.modules.profiler.kit [1.7.1 201302132200]
 	org.netbeans.modules.profiler.j2se/1 [1.25.1 201302132200]
@@ -480,7 +480,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.mylyn.util [1.2.1 201302132200]
 	org.netbeans.modules.mercurial [1.31.1.42.1 201302132200]
 	org.netbeans.modules.maven.spring/1 [1.18.1 201302132200]
-	org.netbeans.modules.maven.grammar/1 [1.30.1.1 201302132200]
+	org.netbeans.modules.maven.grammar/1 [1.30.2.1 201303242200]
 	org.netbeans.modules.maven.repository/1 [1.29.1 201302132200]
 	org.netbeans.modules.maven.refactoring [1.9.1 201302132200]
 	org.netbeans.modules.gsf.codecoverage [1.21.1 201302132200]
@@ -511,11 +511,11 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.javafx2.editor [1.10.1.9.23 201302132200]
 	org.netbeans.modules.javafx2.scenebuilder [1.7.1 201302132200]
 	org.netbeans.modules.javafx2.samples [1.7.1 201302132200]
-	org.netbeans.modules.debugger.jpda.visual/1 [1.6.1 201302132200]
+	org.netbeans.modules.debugger.jpda.visual/1 [1.6.2 201303242200]
 	org.netbeans.modules.debugger.jpda.kit [1.6.1 201302132200]
 	org.netbeans.modules.java.source.queries [1.8.1 201302132200]
 	org.netbeans.modules.java.guards/0 [0.21.1 201302132200]
-	org.netbeans.modules.form/2 [1.46.1.4 4 201302132200]
+	org.netbeans.modules.form/2 [1.46.2.4 4 201303242200]
 	org.netbeans.modules.form.nb/0 [0.8.1.1.4 1 201302132200]
 	org.netbeans.modules.form.binding/0 [0.7.1.1.4.1 1 201302132200]
 	org.netbeans.modules.form.refactoring/0 [0.7.1.1.4.1 1 201302132200]
@@ -546,7 +546,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.hibernateweb [1.16.1 201302132200]
 	org.eclipse.jgit [1.3.0 1.3.0]
 	org.netbeans.libs.git/1 [1.5.1 201302132200]
-	org.netbeans.modules.git [1.8.1.1 201302132200]
+	org.netbeans.modules.git [1.8.2.1 201303242200]
 	org.netbeans.modules.form.j2ee/0 [0.22.1.1.4.1 1 201302132200]
 	org.apache.commons.io [1.4 1.4]
 	org.netbeans.modules.extexecution.impl [1.15.1 201302132200]
@@ -556,7 +556,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.bugtracking [1.39.1 201302132200]
 	org.eclipse.mylyn.bugzilla.core [3.8.2 3.8.2.v20120916-1200]
 	org.apache.commons.httpclient [3.1.0 3.1.0]
-	org.netbeans.modules.bugzilla [1.33.1 201302132200]
+	org.netbeans.modules.bugzilla [1.33.2 201303242200]
 	org.netbeans.modules.bugzilla.exceptionreporter [1.12.1 201302132200]
 	org.netbeans.modules.bugtracking.bridge [1.22.1 201302132200]
 	org.netbeans.modules.apisupport.wizards [1.7.1 201302132200]
@@ -577,7 +577,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.libs.svnClientAdapter.javahl/1 [1.12.1 201302132200]
 	org.netbeans.core.nativeaccess/1 [1.19.1 201302132200]
 	org.netbeans.core.io.ui/1 [1.20.1 201302132200]
-	org.netbeans.core.browser.webview/1 [1.2.1.1.1 1 201302132200]
+	org.netbeans.core.browser.webview/1 [1.2.2.1.1 1 201303242200]
 	org.eclipse.mylyn.commons.xmlrpc [3.8.2 3.8.2.v20120916-1200]
 	org.eclipse.mylyn.commons.repositories.core [1.0.2 1.0.2.v20120916-1200]
 	org.eclipse.mylyn.commons.core [3.8.2 3.8.2.v20120916-1200]
@@ -593,20 +593,35 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.ws.commons.util [1.0.1 1.0.1]
 	org.apache.commons.lang [2.4.0 2.4.0]
 	org.apache.commons.codec [1.3.0 1.3.0]
-	edu.mass.qcc.palette [1.25 130314]
+	edu.mass.qcc.palette [1.8 130418]
 	com.jcraft.jzlib [1.0.7 1.0.7]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.masterfs.FilesystemInterceptor.getRootFilesystem(FilesystemInterceptor.java:81)
 WARNING [org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage]: The keybinding 'A-MOUSE_WHEEL_UP' in Editors/Keybindings/NetBeans/Defaults/org-netbeans-modules-editor-keybindings.xml may not work correctly on Mac. Keybindings starting with Alt or Ctrl should be coded with latin capital letters 'O' or 'D' respectively. For details see org.openide.util.Utilities.stringToKey().
 WARNING [org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage]: The keybinding 'A-MOUSE_WHEEL_DOWN' in Editors/Keybindings/NetBeans/Defaults/org-netbeans-modules-editor-keybindings.xml may not work correctly on Mac. Keybindings starting with Alt or Ctrl should be coded with latin capital letters 'O' or 'D' respectively. For details see org.openide.util.Utilities.stringToKey().
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.core.Utils.getUnversionedFolders(Utils.java:283)
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.masterfs.FilesystemInterceptor.getRootFilesystem(FilesystemInterceptor.java:81)
 INFO [org.netbeans.modules.extbrowser]: Cannot detect Mozilla : org.netbeans.modules.extbrowser.NbBrowserException: RegOpenKeyEx() failed for SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\MOZILLA.exe.
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.core.VersioningManager.getLocalHistory(VersioningManager.java:482)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 6 ms
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.uihandler.Installer.logFileMetrics(Installer.java:853)
+SEVERE [org.openide.util.RequestProcessor]: Error in RequestProcessor org.netbeans.modules.uihandler.Installer$2Auto
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at java.io.PushbackInputStream.unread(PushbackInputStream.java:235)
+	at org.netbeans.modules.uihandler.Installer.copyWithEncoding(Installer.java:1458)
+	at org.netbeans.modules.uihandler.Installer$Submit.doShow(Installer.java:1634)
+	at org.netbeans.modules.uihandler.Installer.displaySummary(Installer.java:1001)
+	at org.netbeans.modules.uihandler.Installer.access$400(Installer.java:114)
+	at org.netbeans.modules.uihandler.Installer$2Auto.run(Installer.java:576)
+Caused: org.openide.util.RequestProcessor$SlowItem: task failed due to
+	at org.openide.util.RequestProcessor.post(RequestProcessor.java:424)
+	at org.netbeans.modules.uihandler.Installer.writeOutMetrics(Installer.java:580)
+	at org.netbeans.modules.uihandler.MetricsHandler$1WriteOut.run(MetricsHandler.java:80)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1432)
+[catch] at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2044)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.core.VersioningManager.getLocalHistory(VersioningManager.java:493)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 7 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\test took: 151 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html took: 96 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 247 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\test took: 172 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html took: 113 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 285 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -641,7 +656,7 @@ Heap memory usage: initial 32.0MB maximum 682.7MB
 Non heap memory usage: initial 34.4MB maximum 432.0MB
 Garbage collector: PS Scavenge (Collections=17 Total time spent=0s)
 Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
-Classes: loaded=7965 total loaded=7965 unloaded 0
+Classes: loaded=7982 total loaded=7982 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 6,387,777,536
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.spellchecker.ComponentPeer.getUsersLocalDictionary(ComponentPeer.java:442)
 WARNING [org.openide.util.ImageUtilities]: Initial slashes in Utilities.loadImage deprecated (cf. #20072): /org/netbeans/modules/css/visual/resources/newRule.png
@@ -756,129 +771,52 @@ java.util.MissingResourceException: Can't find resource for bundle org.openide.u
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
 CONFIG [null]: Missing resource from class: org.openide.util.NbBundle$PBundle
 CONFIG [null]: Key which was not found: LearingPalette/Objects, Classes, Methods
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 85 ms
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.csl.navigation.BreadCrumbsTask ignored cancel for 78 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 3,602 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\domstubs.zip took: 102 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\corestubs.zip took: 69 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.csl.navigation.BreadCrumbsTask ignored cancel for 93 ms.
-INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.csl.editor.fold.GsfFoldManager$JavaElementFoldTask ignored cancel for 1,796 ms.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\reststubs.zip took: 2,320 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 2,491 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 log4j:WARN No appenders could be found for logger (nu.validator.source.LocationRecorder).
 log4j:WARN Please initialize the log4j system properly.
-INFO [org.netbeans.spi.lexer.MutableTextInput]: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.modules.editor.NbEditorDocument@170c59ea, mimeType='text/html', kitClass=null, length=586, version=1, file=org.netbeans.modules.html.HtmlDataObject@57ecf705[C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html\index.html@ad52e84c:511c49]
-java.lang.Exception
-	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:397)
-	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:422)
-	at org.netbeans.api.lexer.TokenHierarchy.tokenSequence(TokenHierarchy.java:201)
-	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:124)
-	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:97)
-	at org.netbeans.modules.javascript2.editor.JsTypedTextInterceptor.beforeInsert(JsTypedTextInterceptor.java:243)
-	at org.netbeans.modules.editor.lib2.typinghooks.TypedTextInterceptorsManager$Transaction.beforeInsertion(TypedTextInterceptorsManager.java:90)
-	at org.netbeans.editor.BaseKit$DefaultKeyTypedAction.actionPerformed(BaseKit.java:1171)
-	at org.netbeans.editor.ext.ExtKit$ExtDefaultKeyTypedAction.actionPerformed(ExtKit.java:1022)
-	at org.netbeans.modules.html.editor.api.HtmlKit$HtmlDefaultKeyTypedAction.actionPerformed(HtmlKit.java:427)
-	at org.netbeans.editor.BaseAction.actionPerformed(BaseAction.java:339)
-	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1664)
-	at javax.swing.JComponent.processKeyBinding(JComponent.java:2879)
-	at javax.swing.JComponent.processKeyBindings(JComponent.java:2926)
-	at javax.swing.JComponent.processKeyEvent(JComponent.java:2842)
-	at java.awt.Component.processEvent(Component.java:6282)
-	at java.awt.Container.processEvent(Container.java:2229)
-	at java.awt.Component.dispatchEventImpl(Component.java:4861)
-	at java.awt.Container.dispatchEventImpl(Container.java:2287)
-	at java.awt.Component.dispatchEvent(Component.java:4687)
-	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1895)
-	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:762)
-	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1027)
-	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:899)
-	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:727)
-	at java.awt.Component.dispatchEventImpl(Component.java:4731)
-	at java.awt.Container.dispatchEventImpl(Container.java:2287)
-	at java.awt.Window.dispatchEventImpl(Window.java:2719)
-	at java.awt.Component.dispatchEvent(Component.java:4687)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
-	at java.awt.EventQueue.access$200(EventQueue.java:103)
-	at java.awt.EventQueue$3.run(EventQueue.java:688)
-	at java.awt.EventQueue$3.run(EventQueue.java:686)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.awt.EventQueue$4.run(EventQueue.java:702)
-	at java.awt.EventQueue$4.run(EventQueue.java:700)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
-INFO [org.netbeans.spi.lexer.MutableTextInput]: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.modules.editor.NbEditorDocument@170c59ea, mimeType='text/html', kitClass=null, length=586, version=1, file=org.netbeans.modules.html.HtmlDataObject@57ecf705[C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html\index.html@ad52e84c:511c49]
-java.lang.Exception
-	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:397)
-	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:422)
-	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:418)
-	at org.netbeans.api.lexer.TokenHierarchy.tokenSequence(TokenHierarchy.java:186)
-	at org.netbeans.api.lexer.TokenHierarchy.embeddedTokenSequences(TokenHierarchy.java:265)
-	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:129)
-	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:97)
-	at org.netbeans.modules.javascript2.editor.JsTypedTextInterceptor.beforeInsert(JsTypedTextInterceptor.java:243)
-	at org.netbeans.modules.editor.lib2.typinghooks.TypedTextInterceptorsManager$Transaction.beforeInsertion(TypedTextInterceptorsManager.java:90)
-	at org.netbeans.editor.BaseKit$DefaultKeyTypedAction.actionPerformed(BaseKit.java:1171)
-	at org.netbeans.editor.ext.ExtKit$ExtDefaultKeyTypedAction.actionPerformed(ExtKit.java:1022)
-	at org.netbeans.modules.html.editor.api.HtmlKit$HtmlDefaultKeyTypedAction.actionPerformed(HtmlKit.java:427)
-	at org.netbeans.editor.BaseAction.actionPerformed(BaseAction.java:339)
-	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1664)
-	at javax.swing.JComponent.processKeyBinding(JComponent.java:2879)
-	at javax.swing.JComponent.processKeyBindings(JComponent.java:2926)
-	at javax.swing.JComponent.processKeyEvent(JComponent.java:2842)
-	at java.awt.Component.processEvent(Component.java:6282)
-	at java.awt.Container.processEvent(Container.java:2229)
-	at java.awt.Component.dispatchEventImpl(Component.java:4861)
-	at java.awt.Container.dispatchEventImpl(Container.java:2287)
-	at java.awt.Component.dispatchEvent(Component.java:4687)
-	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1895)
-	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:762)
-	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1027)
-	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:899)
-	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:727)
-	at java.awt.Component.dispatchEventImpl(Component.java:4731)
-	at java.awt.Container.dispatchEventImpl(Container.java:2287)
-	at java.awt.Window.dispatchEventImpl(Window.java:2719)
-	at java.awt.Component.dispatchEvent(Component.java:4687)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
-	at java.awt.EventQueue.access$200(EventQueue.java:103)
-	at java.awt.EventQueue$3.run(EventQueue.java:688)
-	at java.awt.EventQueue$3.run(EventQueue.java:686)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
-	at java.awt.EventQueue$4.run(EventQueue.java:702)
-	at java.awt.EventQueue$4.run(EventQueue.java:700)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
-	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
-WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.netbeans.modules.parsing.impl.RunWhenScanFinishedSupport.runWhenScanFinished(RunWhenScanFinishedSupport.java:136)
-WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.netbeans.modules.csl.core.GsfReformatTask.reformat(GsfReformatTask.java:95)
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format token stream creation: 4 ms
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format visitor: 3 ms
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Formatting changes: 0 ms
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format token stream creation: 1 ms
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format visitor: 0 ms
-INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Formatting changes: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\jsstubs\domstubs.zip took: 3,926 ms (New or modified files: 133, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\jsstubs\corestubs.zip took: 375 ms (New or modified files: 31, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.sampler.InternalSampler]: Slowness detector disabled - running under profiler
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\QccJavaScriptLearningPalette\build\testuserdir\jsstubs\reststubs.zip took: 439 ms (New or modified files: 11, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 4,740 ms (New or modified files: 175, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_1.xml], but some are: [ccc.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_1.xml], but some are: [ccc.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_2.xml], but some are: [ccc.xml, ccc_1.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_3.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_4.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_5.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_5.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_6.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_7.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_8.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_9.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_9.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_10.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_11.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_11.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_12.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_13.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_13.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_14.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_14.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_15.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_16.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_17.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_18.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_18.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_19.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_20.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_21.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_21.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_22.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml, ccc_21.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_23.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml, ccc_21.xml, ccc_22.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_23.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml, ccc_21.xml, ccc_22.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_24.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml, ccc_21.xml, ccc_22.xml, ccc_23.xml]
+WARNING [org.openide.filesystems.Ordering]: Not all children in LearningPalette/Student Directory/ marked with the position attribute: [ccc_24.xml], but some are: [ccc.xml, ccc_1.xml, ccc_2.xml, ccc_3.xml, ccc_4.xml, ccc_5.xml, ccc_6.xml, ccc_7.xml, ccc_8.xml, ccc_9.xml, ccc_10.xml, ccc_11.xml, ccc_12.xml, ccc_13.xml, ccc_14.xml, ccc_15.xml, ccc_16.xml, ccc_17.xml, ccc_18.xml, ccc_19.xml, ccc_20.xml, ccc_21.xml, ccc_22.xml, ccc_23.xml]
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.websvc.saas.model.SaasServicesModel.<clinit>(SaasServicesModel.java:69)
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.uihandler.Installer.logsDirectory(Installer.java:832)
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256

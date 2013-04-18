@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Thursday, March 14, 2013 12:38:31 PM EDT
+>Log Session: Tuesday, April 9, 2013 12:55:46 PM EDT
 >System Info: 
   Product Version         = NetBeans IDE 7.3 (Build 201302132200) (#93e87decaddf)
   Operating System        = Windows 7 version 6.1 running on amd64
@@ -212,9 +212,9 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.websvc.design [1.18.1 201302132200]
 	org.netbeans.modules.servletjspapi/1 [1.19.1.25 25 201302132200]
 	org.netbeans.libs.glassfish_logging/1 [1.19.1.20 20 201302132200]
-	org.netbeans.core.output2/1 [1.30.1 201302132200]
 	org.netbeans.lib.terminalemulator [1.24.1 201302132200]
 	org.netbeans.modules.terminal [1.13.1 201302132200]
+	org.netbeans.core.output2/1 [1.30.1 201302132200]
 	org.netbeans.modules.web.jspparser/3 [3.18.1 201302132200]
 	org.netbeans.modules.gsf.testrunner/1 [1.31.1 201302132200]
 	org.netbeans.modules.java.testrunner [1.5.1 201302132200]
@@ -593,7 +593,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.ws.commons.util [1.0.1 1.0.1]
 	org.apache.commons.lang [2.4.0 2.4.0]
 	org.apache.commons.codec [1.3.0 1.3.0]
-	edu.mass.qcc.palette [1.25 130306]
+	edu.mass.qcc.palette [1.27 130409]
 	com.jcraft.jzlib [1.0.7 1.0.7]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
 WARNING [org.netbeans.modules.editor.settings.storage.keybindings.KeyMapsStorage]: The keybinding 'A-MOUSE_WHEEL_UP' in Editors/Keybindings/NetBeans/Defaults/org-netbeans-modules-editor-keybindings.xml may not work correctly on Mac. Keybindings starting with Alt or Ctrl should be coded with latin capital letters 'O' or 'D' respectively. For details see org.openide.util.Utilities.stringToKey().
@@ -604,9 +604,9 @@ INFO [org.netbeans.modules.extbrowser]: Cannot detect Mozilla : org.netbeans.mod
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.versioning.core.VersioningManager.getLocalHistory(VersioningManager.java:482)
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\test took: 243 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html took: 419 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 662 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 3 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\test took: 171 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html took: 100 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 271 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -639,11 +639,12 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 32.0MB maximum 682.7MB
 Non heap memory usage: initial 34.4MB maximum 432.0MB
-Garbage collector: PS Scavenge (Collections=28 Total time spent=0s)
-Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
-Classes: loaded=7952 total loaded=7952 unloaded 0
+Garbage collector: PS Scavenge (Collections=17 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=2 Total time spent=0s)
+Classes: loaded=7861 total loaded=7861 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 6,387,777,536
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.spellchecker.ComponentPeer.getUsersLocalDictionary(ComponentPeer.java:442)
+WARNING [org.openide.util.ImageUtilities]: Initial slashes in Utilities.loadImage deprecated (cf. #20072): /org/netbeans/modules/css/visual/resources/newRule.png
 INFO [org.netbeans.modules.palette.PaletteItemNode]
 java.util.MissingResourceException: Can't find resource for bundle org.openide.util.NbBundle$PBundle, key HINT_html-bo
 	at java.util.ResourceBundle.getObject(ResourceBundle.java:393)
@@ -755,53 +756,58 @@ java.util.MissingResourceException: Can't find resource for bundle org.openide.u
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
 CONFIG [null]: Missing resource from class: org.openide.util.NbBundle$PBundle
 CONFIG [null]: Key which was not found: LearingPalette/Objects, Classes, Methods
-INFO [org.netbeans.modules.palette.PaletteItemNode]
-java.net.MalformedURLException: no protocol: org/netbeans/modules/filepalette/items/resources/Application.png
-	at java.net.URL.<init>(URL.java:585)
-	at java.net.URL.<init>(URL.java:482)
-	at java.net.URL.<init>(URL.java:431)
-[catch] at org.netbeans.modules.palette.PaletteItemNode._getIcon(PaletteItemNode.java:317)
-	at org.netbeans.modules.palette.PaletteItemNode.getIcon(PaletteItemNode.java:173)
-	at org.openide.nodes.FilterNode.getIcon(FilterNode.java:557)
-	at org.openide.nodes.FilterNode.getIcon(FilterNode.java:557)
-	at org.openide.nodes.FilterNode.getIcon(FilterNode.java:557)
-	at org.netbeans.modules.palette.DefaultItem.getIcon(DefaultItem.java:81)
-	at org.netbeans.modules.palette.ui.CategoryList$ItemRenderer.getListCellRendererComponent(CategoryList.java:324)
-	at javax.swing.plaf.basic.BasicListUI.updateLayoutState(BasicListUI.java:1361)
-	at org.netbeans.modules.palette.ui.CategoryList$CategoryListUI.updateLayoutState(CategoryList.java:411)
-	at javax.swing.plaf.basic.BasicListUI.maybeUpdateLayoutState(BasicListUI.java:1311)
-	at javax.swing.plaf.basic.BasicListUI.getCellBounds(BasicListUI.java:952)
-	at javax.swing.JList.getCellBounds(JList.java:1633)
-	at javax.swing.JList.ensureIndexIsVisible(JList.java:1149)
-	at org.netbeans.modules.palette.ui.CategoryDescriptor.doSetOpened(CategoryDescriptor.java:225)
-	at org.netbeans.modules.palette.ui.CategoryDescriptor.<init>(CategoryDescriptor.java:124)
-	at org.netbeans.modules.palette.ui.PalettePanel.computeDescriptors(PalettePanel.java:211)
-	at org.netbeans.modules.palette.ui.PalettePanel.access$500(PalettePanel.java:112)
-	at org.netbeans.modules.palette.ui.PalettePanel$2.run(PalettePanel.java:309)
-	at org.netbeans.modules.palette.ui.PalettePanel.refresh(PalettePanel.java:326)
-	at org.netbeans.modules.palette.ui.PalettePanel.setContent(PalettePanel.java:428)
-	at org.netbeans.spi.palette.PaletteTopComponent.setPaletteController(PaletteTopComponent.java:159)
-	at org.netbeans.spi.palette.PaletteTopComponent.componentOpened(PaletteTopComponent.java:118)
-	at org.openide.windows.WindowManager.componentOpenNotify(WindowManager.java:307)
-	at org.netbeans.core.windows.WindowManagerImpl.notifyTopComponentOpened(WindowManagerImpl.java:1140)
-	at org.netbeans.core.windows.Central.addModeOpenedTopComponent(Central.java:798)
-	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:354)
-	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1252)
-	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1217)
-	at org.openide.windows.TopComponent.open(TopComponent.java:497)
-	at org.openide.windows.TopComponent.open(TopComponent.java:477)
-	at org.netbeans.spi.palette.PaletteTopComponent.showPalette(PaletteTopComponent.java:180)
-	at org.netbeans.spi.palette.PaletteSwitch.showHidePaletteTopComponent(PaletteSwitch.java:228)
-	at org.netbeans.spi.palette.PaletteSwitch.access$400(PaletteSwitch.java:79)
-	at org.netbeans.spi.palette.PaletteSwitch$3.run(PaletteSwitch.java:349)
-	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:251)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:727)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 33 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\domstubs.zip took: 224 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.csl.editor.fold.GsfFoldManager$JavaElementFoldTask ignored cancel for 2,428 ms.
+log4j:WARN No appenders could be found for logger (nu.validator.source.LocationRecorder).
+log4j:WARN Please initialize the log4j system properly.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\corestubs.zip took: 3,122 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\reststubs.zip took: 133 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 3,479 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.spi.lexer.MutableTextInput]: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.modules.editor.NbEditorDocument@d2c3471, mimeType='text/html', kitClass=null, length=656, version=3, file=org.netbeans.modules.html.HtmlDataObject@5c62369c[C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html\index.html@ad52e84c:3ed0c14f]
+java.lang.Exception
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:397)
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:422)
+	at org.netbeans.api.lexer.TokenHierarchy.tokenSequence(TokenHierarchy.java:201)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:124)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:97)
+	at org.netbeans.modules.javascript2.editor.JsTypedTextInterceptor.beforeInsert(JsTypedTextInterceptor.java:243)
+	at org.netbeans.modules.editor.lib2.typinghooks.TypedTextInterceptorsManager$Transaction.beforeInsertion(TypedTextInterceptorsManager.java:90)
+	at org.netbeans.editor.BaseKit$DefaultKeyTypedAction.actionPerformed(BaseKit.java:1171)
+	at org.netbeans.editor.ext.ExtKit$ExtDefaultKeyTypedAction.actionPerformed(ExtKit.java:1022)
+	at org.netbeans.modules.html.editor.api.HtmlKit$HtmlDefaultKeyTypedAction.actionPerformed(HtmlKit.java:427)
+	at org.netbeans.editor.BaseAction.actionPerformed(BaseAction.java:339)
+	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1664)
+	at javax.swing.JComponent.processKeyBinding(JComponent.java:2879)
+	at javax.swing.JComponent.processKeyBindings(JComponent.java:2926)
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2842)
+	at java.awt.Component.processEvent(Component.java:6282)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1895)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:762)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1027)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:899)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:727)
+	at java.awt.Component.dispatchEventImpl(Component.java:4731)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
 	at java.awt.EventQueue.access$200(EventQueue.java:103)
 	at java.awt.EventQueue$3.run(EventQueue.java:688)
 	at java.awt.EventQueue$3.run(EventQueue.java:686)
 	at java.security.AccessController.doPrivileged(Native Method)
 	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:697)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:702)
+	at java.awt.EventQueue$4.run(EventQueue.java:700)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
 	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
@@ -809,18 +815,125 @@ java.net.MalformedURLException: no protocol: org/netbeans/modules/filepalette/it
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
-WARNING [org.openide.util.ImageUtilities]: Initial slashes in Utilities.loadImage deprecated (cf. #20072): /org/netbeans/modules/css/visual/resources/newRule.png
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 209 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: class org.netbeans.modules.csl.editor.fold.GsfFoldManager$JavaElementFoldTask ignored cancel for 2,882 ms.
-log4j:WARN No appenders could be found for logger (nu.validator.source.LocationRecorder).
-log4j:WARN Please initialize the log4j system properly.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\domstubs.zip took: 3,637 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\corestubs.zip took: 142 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files (x86)\NetBeans 7.3\ide\jsstubs\reststubs.zip took: 139 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 3,918 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.websvc.saas.model.SaasServicesModel.<clinit>(SaasServicesModel.java:69)
+INFO [org.netbeans.spi.lexer.MutableTextInput]: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.modules.editor.NbEditorDocument@d2c3471, mimeType='text/html', kitClass=null, length=656, version=3, file=org.netbeans.modules.html.HtmlDataObject@5c62369c[C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html\index.html@ad52e84c:3ed0c14f]
+java.lang.Exception
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:397)
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:422)
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:418)
+	at org.netbeans.api.lexer.TokenHierarchy.tokenSequence(TokenHierarchy.java:186)
+	at org.netbeans.api.lexer.TokenHierarchy.embeddedTokenSequences(TokenHierarchy.java:265)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:129)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:97)
+	at org.netbeans.modules.javascript2.editor.JsTypedTextInterceptor.beforeInsert(JsTypedTextInterceptor.java:243)
+	at org.netbeans.modules.editor.lib2.typinghooks.TypedTextInterceptorsManager$Transaction.beforeInsertion(TypedTextInterceptorsManager.java:90)
+	at org.netbeans.editor.BaseKit$DefaultKeyTypedAction.actionPerformed(BaseKit.java:1171)
+	at org.netbeans.editor.ext.ExtKit$ExtDefaultKeyTypedAction.actionPerformed(ExtKit.java:1022)
+	at org.netbeans.modules.html.editor.api.HtmlKit$HtmlDefaultKeyTypedAction.actionPerformed(HtmlKit.java:427)
+	at org.netbeans.editor.BaseAction.actionPerformed(BaseAction.java:339)
+	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1664)
+	at javax.swing.JComponent.processKeyBinding(JComponent.java:2879)
+	at javax.swing.JComponent.processKeyBindings(JComponent.java:2926)
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2842)
+	at java.awt.Component.processEvent(Component.java:6282)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1895)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:762)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1027)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:899)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:727)
+	at java.awt.Component.dispatchEventImpl(Component.java:4731)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:702)
+	at java.awt.EventQueue$4.run(EventQueue.java:700)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.uihandler.Installer.logsDirectory(Installer.java:832)
+INFO [org.netbeans.spi.lexer.MutableTextInput]: !!WARNING!! Missing READ-LOCK when accessing TokenHierarchy: input-source:org.netbeans.modules.editor.NbEditorDocument@d2c3471, mimeType='text/html', kitClass=null, length=663, version=10, file=org.netbeans.modules.html.HtmlDataObject@5c62369c[C:\Users\Tim\Documents\NetBeansProjects\HTML5Application\public_html\index.html@ad52e84c:3ed0c14f]
+java.lang.Exception
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.ensureReadLocked(TokenHierarchyOperation.java:397)
+	at org.netbeans.lib.lexer.TokenHierarchyOperation.tokenSequence(TokenHierarchyOperation.java:422)
+	at org.netbeans.api.lexer.TokenHierarchy.tokenSequence(TokenHierarchy.java:201)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getTokenSequence(LexUtilities.java:124)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getPositionedSequence(LexUtilities.java:378)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getPositionedSequence(LexUtilities.java:357)
+	at org.netbeans.modules.javascript2.editor.lexer.LexUtilities.getToken(LexUtilities.java:236)
+	at org.netbeans.modules.javascript2.editor.JsTypedTextInterceptor.afterInsert(JsTypedTextInterceptor.java:145)
+	at org.netbeans.modules.editor.lib2.typinghooks.TypedTextInterceptorsManager$Transaction.afterInsertion(TypedTextInterceptorsManager.java:131)
+	at org.netbeans.editor.BaseKit$DefaultKeyTypedAction.actionPerformed(BaseKit.java:1209)
+	at org.netbeans.editor.ext.ExtKit$ExtDefaultKeyTypedAction.actionPerformed(ExtKit.java:1022)
+	at org.netbeans.modules.html.editor.api.HtmlKit$HtmlDefaultKeyTypedAction.actionPerformed(HtmlKit.java:427)
+	at org.netbeans.editor.BaseAction.actionPerformed(BaseAction.java:339)
+	at javax.swing.SwingUtilities.notifyAction(SwingUtilities.java:1664)
+	at javax.swing.JComponent.processKeyBinding(JComponent.java:2879)
+	at javax.swing.JComponent.processKeyBindings(JComponent.java:2926)
+	at javax.swing.JComponent.processKeyEvent(JComponent.java:2842)
+	at java.awt.Component.processEvent(Component.java:6282)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1895)
+	at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:762)
+	at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1027)
+	at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:899)
+	at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:727)
+	at java.awt.Component.dispatchEventImpl(Component.java:4731)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:729)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:688)
+	at java.awt.EventQueue$3.run(EventQueue.java:686)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:702)
+	at java.awt.EventQueue$4.run(EventQueue.java:700)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:699)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:242)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:150)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:146)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:138)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:91)
+INFO [org.netbeans.modules.javascript2.editor.JsCodeCompletion]: Not instance of JsParserResult: org.netbeans.modules.javascript2.editor.parser.JsParserResult@21d11993
+INFO [org.netbeans.modules.javascript2.editor.JsCodeCompletion]: Not instance of JsParserResult: org.netbeans.modules.javascript2.editor.parser.JsParserResult@5e4f98ce
+INFO [org.netbeans.modules.javascript2.editor.JsCodeCompletion]: Not instance of JsParserResult: org.netbeans.modules.javascript2.editor.parser.JsParserResult@46624e0
+WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.netbeans.modules.csl.core.GsfReformatTask.reformat(GsfReformatTask.java:95)
+INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format token stream creation: 11 ms
+INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Format visitor: 2 ms
+INFO [org.netbeans.modules.javascript2.editor.formatter.JsFormatter]: Formatting changes: 0 ms
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+WARNING [org.netbeans.modules.progress.spi.InternalHandle]: Cannot switch to silent mode when not running at org.netbeans.core.ui.warmup.MenuWarmUpTask$NbWindowsAdapter$1HandleBridge.run(MenuWarmUpTask.java:269)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.websvc.saas.model.SaasServicesModel.<clinit>(SaasServicesModel.java:69)
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped

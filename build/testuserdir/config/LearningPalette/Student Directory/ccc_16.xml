@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE editor_palette_item PUBLIC "-//NetBeans//Editor Palette Item 1.1//EN" "http://www.netbeans.org/dtds/editor-palette-item-1_1.dtd">
+
+<editor_palette_item version="1.0">
+    <body>
+        <![CDATA[
+toExponentail(digit);
+        ]]>
+    </body>
+    <icon16 urlvalue="org/netbeans/modules/palette/resources/unknown16.gif" />
+    <icon32 urlvalue="org/netbeans/modules/palette/resources/unknown32.gif" />
+    <inline-description>
+        <display-name>Exponential</display-name>
+        <tooltip>Returns a number in exponential form with specified decimal places.</tooltip>
+    </inline-description>
+</editor_palette_item>
