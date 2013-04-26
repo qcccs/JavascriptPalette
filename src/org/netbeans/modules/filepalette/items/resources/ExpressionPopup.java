@@ -8,6 +8,7 @@ import edu.mass.qcc.qcccodewizard.CodeDrop;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -126,7 +127,13 @@ public class ExpressionPopup extends javax.swing.JPanel {
         operator1.setModel(new OperatorListModel());
 
         arg2.setEditable(true);
-        arg2.setModel(new VariableNameComboModel());
+        try{
+            arg2.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(ExpressionPopup.class, "ExpressionPopup.jLabel2.text")); // NOI18N
 

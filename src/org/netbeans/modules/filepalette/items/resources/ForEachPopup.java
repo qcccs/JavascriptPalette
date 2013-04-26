@@ -9,6 +9,7 @@ import edu.mass.qcc.qcccodewizard.CodeDrop;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -139,12 +140,24 @@ public class ForEachPopup extends javax.swing.JPanel {
         });
 
         forEachName.setEditable(true);
-        forEachName.setModel(new VariableNameComboModel());
+        try{
+            forEachName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel36, org.openide.util.NbBundle.getMessage(ForEachPopup.class, "ForEachPopup.jLabel36.text")); // NOI18N
 
         forEachArrayName.setEditable(true);
-        forEachArrayName.setModel(new VariableNameComboModel());
+        try{
+            forEachArrayName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel37, org.openide.util.NbBundle.getMessage(ForEachPopup.class, "ForEachPopup.jLabel37.text")); // NOI18N
 

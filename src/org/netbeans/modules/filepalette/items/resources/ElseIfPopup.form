@@ -156,11 +156,14 @@
             </Component>
             <Component class="javax.swing.JComboBox" name="elseIfName">
               <Properties>
-                <Property name="editable" type="boolean" value="true"/>
+                <Property name="editable" type="boolean" value="true" postCode="try{"/>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="new VariableNameComboModel()" type="code"/>
                 </Property>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="}&#xa;catch(FileNotFoundException ex)&#xa;{&#xa;&#xa;}"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JComboBox" name="elseIfOp">
               <Properties>
@@ -171,11 +174,14 @@
             </Component>
             <Component class="javax.swing.JComboBox" name="elseIfValue">
               <Properties>
-                <Property name="editable" type="boolean" value="true"/>
+                <Property name="editable" type="boolean" value="true" postCode="try{"/>
                 <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
                   <Connection code="new VariableNameComboModel()" type="code"/>
                 </Property>
               </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="}&#xa;catch(FileNotFoundException ex)&#xa;{&#xa;&#xa;}"/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel17">
               <Properties>

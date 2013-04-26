@@ -8,6 +8,7 @@ import edu.mass.qcc.qcccodewizard.CodeDrop;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -119,12 +120,24 @@ public class ElseIfPopup extends javax.swing.JPanel {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel16, org.openide.util.NbBundle.getMessage(ElseIfPopup.class, "ElseIfPopup.jLabel16.text")); // NOI18N
 
         elseIfName.setEditable(true);
-        elseIfName.setModel(new VariableNameComboModel());
+        try{
+            elseIfName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         elseIfOp.setModel(new OperatorListModel());
 
         elseIfValue.setEditable(true);
-        elseIfValue.setModel(new VariableNameComboModel());
+        try{
+            elseIfValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel17, org.openide.util.NbBundle.getMessage(ElseIfPopup.class, "ElseIfPopup.jLabel17.text")); // NOI18N
 

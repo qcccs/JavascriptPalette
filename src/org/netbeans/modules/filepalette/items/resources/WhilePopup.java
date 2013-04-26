@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -124,12 +125,22 @@ public class WhilePopup extends javax.swing.JPanel {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel13, org.openide.util.NbBundle.getMessage(WhilePopup.class, "WhilePopup.jLabel13.text")); // NOI18N
 
         whileName.setEditable(true);
-        whileName.setModel(new VariableNameComboModel());
+        try{
+            whileName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex){
+
+        }
 
         whileOp.setModel(new OperatorListModel());
 
         whileValue.setEditable(true);
-        whileValue.setModel(new VariableNameComboModel());
+        try{
+            whileValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex){
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel14, org.openide.util.NbBundle.getMessage(WhilePopup.class, "WhilePopup.jLabel14.text")); // NOI18N
 

@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -131,7 +132,12 @@ public class SwitchCasePopup extends javax.swing.JPanel {
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel30, org.openide.util.NbBundle.getMessage(SwitchCasePopup.class, "SwitchCasePopup.jLabel30.text")); // NOI18N
 
-        testVariable.setModel(new VariableNameComboModel());
+        try{
+            testVariable.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex){
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(SwitchCasePopup.class, "SwitchCasePopup.jLabel3.text")); // NOI18N
 

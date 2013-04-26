@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -124,12 +125,24 @@ public class IfPopup extends javax.swing.JPanel {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel10, org.openide.util.NbBundle.getMessage(IfPopup.class, "IfPopup.jLabel10.text")); // NOI18N
 
         ifVarName.setEditable(true);
-        ifVarName.setModel(new VariableNameComboModel());
+        try{
+            ifVarName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         ifVarOp.setModel(new OperatorListModel());
 
         ifVarValue.setEditable(true);
-        ifVarValue.setModel(new VariableNameComboModel());
+        try{
+            ifVarValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel11, org.openide.util.NbBundle.getMessage(IfPopup.class, "IfPopup.jLabel11.text")); // NOI18N
 

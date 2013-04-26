@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -129,7 +130,13 @@ public class CharVarPopup extends javax.swing.JPanel {
         vCb4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "=" }));
 
         vCb5.setEditable(true);
-        vCb5.setModel(new VariableNameComboModel());
+        try{
+            vCb5.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb5.setToolTipText(org.openide.util.NbBundle.getMessage(CharVarPopup.class, "CharVarPopup.vCb5.toolTipText")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel41, org.openide.util.NbBundle.getMessage(CharVarPopup.class, "CharVarPopup.jLabel41.text")); // NOI18N

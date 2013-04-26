@@ -9,6 +9,7 @@ import edu.mass.qcc.qcccodewizard.CodeDrop;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -135,12 +136,24 @@ public class DoWhilePopup extends javax.swing.JPanel {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel20, org.openide.util.NbBundle.getMessage(DoWhilePopup.class, "DoWhilePopup.jLabel20.text")); // NOI18N
 
         doWhileName.setEditable(true);
-        doWhileName.setModel(new VariableNameComboModel());
+        try{
+            doWhileName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         doWhileOp.setModel(new OperatorListModel());
 
         doWhileValue.setEditable(true);
-        doWhileValue.setModel(new VariableNameComboModel());
+        try{
+            doWhileValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel26, org.openide.util.NbBundle.getMessage(DoWhilePopup.class, "DoWhilePopup.jLabel26.text")); // NOI18N
 

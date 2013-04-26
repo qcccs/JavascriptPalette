@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -131,14 +132,26 @@ public class ShortVarPopup extends javax.swing.JPanel {
         vCb12.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "=" }));
 
         vCb13.setEditable(true);
-        vCb13.setModel(new VariableNameComboModel());
+        try{
+            vCb13.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb13.setToolTipText(org.openide.util.NbBundle.getMessage(ShortVarPopup.class, "ShortVarPopup.vCb13.toolTipText")); // NOI18N
 
         vCb14.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Assignment", "=", "Arithmetic", "+", "-", "*", "/", "%", "Unary", "+", "-", "++", "--", "!", "Equality & Relational", "==", "!=", ">", ">=", "<", "<=", "Conditional", "&&", "||", "?:", "Bitwise and Shift", "~", "<<", ">>", ">>>", "&", "^", "|", " " }));
         vCb14.setSelectedIndex(9);
 
         vCb15.setEditable(true);
-        vCb15.setModel(new VariableNameComboModel());
+        try{
+            vCb15.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb15.setToolTipText(org.openide.util.NbBundle.getMessage(ShortVarPopup.class, "ShortVarPopup.vCb15.toolTipText")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel43, org.openide.util.NbBundle.getMessage(ShortVarPopup.class, "ShortVarPopup.jLabel43.text")); // NOI18N

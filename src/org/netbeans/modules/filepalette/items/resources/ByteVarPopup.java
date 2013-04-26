@@ -10,6 +10,7 @@ import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -105,40 +106,52 @@ public class ByteVarPopup extends javax.swing.JPanel {
         expPane = new javax.swing.JPanel();
         vCb4 = new javax.swing.JComboBox();
         vCb5 = new javax.swing.JComboBox();
-        vCb6 = new javax.swing.JComboBox();
-        vCb8 = new javax.swing.JComboBox();
-        jLabel41 = new javax.swing.JLabel();
-        addVariableButton = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        varPane = new javax.swing.JPanel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jRadioButton9 = new javax.swing.JRadioButton();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        varNameCombo1 = new javax.swing.JTextField();
+        try{
+            vCb6 = new javax.swing.JComboBox();
+            vCb8 = new javax.swing.JComboBox();
+            jLabel41 = new javax.swing.JLabel();
+            addVariableButton = new javax.swing.JButton();
+            jLabel1 = new javax.swing.JLabel();
+            jTextField1 = new javax.swing.JTextField();
+            varPane = new javax.swing.JPanel();
+            jRadioButton1 = new javax.swing.JRadioButton();
+            jRadioButton2 = new javax.swing.JRadioButton();
+            jRadioButton3 = new javax.swing.JRadioButton();
+            jRadioButton4 = new javax.swing.JRadioButton();
+            jRadioButton5 = new javax.swing.JRadioButton();
+            jRadioButton6 = new javax.swing.JRadioButton();
+            jRadioButton7 = new javax.swing.JRadioButton();
+            jRadioButton8 = new javax.swing.JRadioButton();
+            jRadioButton9 = new javax.swing.JRadioButton();
+            jLabel4 = new javax.swing.JLabel();
+            jLabel33 = new javax.swing.JLabel();
+            jLabel39 = new javax.swing.JLabel();
+            varNameCombo1 = new javax.swing.JTextField();
 
-        expPane.setBorder(javax.swing.BorderFactory.createTitledBorder(org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.expPane.border.title"))); // NOI18N
+            expPane.setBorder(javax.swing.BorderFactory.createTitledBorder(org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.expPane.border.title"))); // NOI18N
 
-        vCb4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "=" }));
+            vCb4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "=" }));
 
-        vCb5.setEditable(true);
-        vCb5.setModel(new VariableNameComboModel());
-        vCb5.setToolTipText(org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.vCb5.toolTipText")); // NOI18N
+            vCb5.setEditable(true);
+            vCb5.setModel(new VariableNameComboModel());
+            vCb5.setToolTipText(org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.vCb5.toolTipText")); // NOI18N
 
+        }
+        catch (FileNotFoundException ex)
+        {
+
+        }
         vCb6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Assignment", "=", "Arithmetic", "+", "-", "*", "/", "%", "Unary", "+", "-", "++", "--", "!", "Equality & Relational", "==", "!=", ">", ">=", "<", "<=", "Conditional", "&&", "||", "?:", "Bitwise and Shift", "~", "<<", ">>", ">>>", "&", "^", "|", " " }));
         vCb6.setSelectedIndex(9);
 
         vCb8.setEditable(true);
-        vCb8.setModel(new VariableNameComboModel());
+        try{
+            vCb8.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb8.setToolTipText(org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.vCb8.toolTipText")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel41, org.openide.util.NbBundle.getMessage(ByteVarPopup.class, "ByteVarPopup.jLabel41.text")); // NOI18N

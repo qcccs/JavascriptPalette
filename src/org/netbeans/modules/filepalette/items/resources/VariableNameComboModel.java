@@ -1,4 +1,4 @@
-
+//Put line into array, read array, put variable into array list
 /*
 * To change this template, choose Tools | Templates
 * and open the template in the editor.
@@ -7,50 +7,100 @@ package org.netbeans.modules.filepalette.items.resources;
 
 //~--- non-JDK imports --------------------------------------------------------
 
-import edu.mass.qcc.qcccodewizard.GetVariableDeclarations;
 
 
-import java.util.ArrayList;
-
+import java.io.FileNotFoundException;
+import java.util.HashSet;
+import java.util.Set;
 import javax.swing.AbstractListModel;
 import javax.swing.ComboBoxModel;
-
+import org.netbeans.api.editor.EditorRegistry;
+import java.util.LinkedList;
 /**
  *
- * @author Ian
+ * @author Tim
+ * Based on code by Ian Hickey and Bill Jellesma
  */
 class VariableNameComboModel extends AbstractListModel implements ComboBoxModel {
 
-    // Open read each line of the current java source file collecting all variables
-    // into the foundVariables ArrayList
-    String[] variableNames = { " " };
-    String[] variableTypes = { " " };
+    
+    //initialize variables
     String   selection     = null;
+    Set<String> variableNamesArray = new HashSet<String>();
+    Set<String> functionNamesArray = new HashSet<String>();
+    Set<String> classNamesArray = new HashSet<String>();
+    LinkedList< String> MyList = new LinkedList< String>();
+    String[] classNames = { " " };
+    String[] functionNames = { " " };
+    String[] variableNames = { " " };
 
-    public VariableNameComboModel() {
-
-        // Find Variables
-        String keyWords[] = {"int","char","bool", "float", "double", "void", "w_chart"};
-        //Open document
+    String replaceText2, pattern2, pattern3, replaceText3;
+    
+    /*
+     * Main constructor to parse Javascript file
+     * @param input. The string containing the file data
+     */
+    public VariableNameComboModel() throws FileNotFoundException {
+        String input = EditorRegistry.lastFocusedComponent().getText();
+        String replaceInput = removeComment(input).replaceAll("[)(;+}={,.]", "");
+        //enter entries (split) by whitespace
+        String words[] = replaceInput.split("\\s+");
+        int counter = 0;
+        //while there are still words, add them to the variableNamesArray ArrayList
+        for(int i = 0; i < words.length; i++){
+            if(words[i].equals("var"))
+            {
+                variableNamesArray.add("   " + words[i+1]);
+            } 
+            else {
+                
+                
+            }
+            counter++;
+        }
+        counter = 1;
+        while(counter<words.length){
+            if(words[counter - 1].equals("function")){
+                
+                functionNamesArray.add("   " + words[counter]);
+            }
+            counter++;
+        }
+        counter = 1;
         
-        //Search Document
+        while(counter<words.length){
+            if(words[counter - 1].equals("class")){
+                
+                classNamesArray.add("   " + words[counter]);
+            
+            }
+            counter++;
+        }
+        int i = 0;
+        //convert the arraylist to an array
+        if(!variableNamesArray.isEmpty()){
+            MyList.add("Variables");
+            MyList.addAll(variableNamesArray);
+        }
+        if(!functionNamesArray.isEmpty()){
+            MyList.add("Functions");
+            MyList.addAll(functionNamesArray);
+        }
+        if(!classNamesArray.isEmpty()){
+             MyList.add("Classes");
+             MyList.addAll(classNamesArray);
+        }
+        this.variableNames = (String[]) MyList.toArray(new String[0]);
+    }
+    
+    public final String removeComment(String input){
         
-        //Close Document
+        pattern2 = "(?://.*)|(/\\*(?:.|[\\n\\r])*?\\*/)";
+        pattern3 = "\"(?i)(\\\")(.+?)(\\\")\"";
         
-        
-        
-        
-
-        GetVariableDeclarations vd = new GetVariableDeclarations();
-
-        
-
-        ArrayList variableNamesArray = vd.getMyArray();
-        ArrayList variableTypesArray = vd.getMyTypeArray();
-
-        
-        this.variableNames = (String[]) variableNamesArray.toArray(new String[0]);
-        this.variableTypes = (String[]) variableTypesArray.toArray(new String[0]);
+        replaceText2 = input.replaceAll(pattern2, " ");
+        replaceText3 = replaceText2.replaceAll(pattern3, " ");
+        return replaceText3;
     }
 
     public void Refresh() {

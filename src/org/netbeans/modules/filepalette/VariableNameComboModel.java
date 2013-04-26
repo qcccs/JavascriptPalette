@@ -4,12 +4,19 @@
  */
 package org.netbeans.modules.filepalette;
 
+import java.io.FileNotFoundException;
+import java.util.HashSet;
+import java.util.Set;
 import javax.swing.AbstractListModel;
 import javax.swing.ComboBoxModel;
+import org.netbeans.api.editor.EditorRegistry;
+import java.util.LinkedList;
+
 
 /**
  *
- * @author Ian
+ * @author Tim
+ * Based on code by Ian Hickey and Bill Jelesma
  */
 class VariableNameComboModel extends AbstractListModel implements ComboBoxModel {
     //Open read each line of the current java source file collecting all variables

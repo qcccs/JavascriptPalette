@@ -9,6 +9,7 @@ import edu.mass.qcc.qcccodewizard.CodeDrop;
 import java.awt.Dialog;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileNotFoundException;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
@@ -136,7 +137,13 @@ public class ForLoopPopup extends javax.swing.JPanel {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel21, org.openide.util.NbBundle.getMessage(ForLoopPopup.class, "ForLoopPopup.jLabel21.text")); // NOI18N
 
         forName.setEditable(true);
-        forName.setModel(new VariableNameComboModel());
+        try{
+            forName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         forName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 forNameActionPerformed(evt);
@@ -146,14 +153,26 @@ public class ForLoopPopup extends javax.swing.JPanel {
         forOp.setModel(new OperatorListModel());
 
         forValue.setEditable(true);
-        forValue.setModel(new VariableNameComboModel());
+        try{
+            forValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel22, org.openide.util.NbBundle.getMessage(ForLoopPopup.class, "ForLoopPopup.jLabel22.text")); // NOI18N
 
         forOp2.setModel(new OperatorListModel());
 
         forConValue.setEditable(true);
-        forConValue.setModel(new VariableNameComboModel());
+        try{
+            forConValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         forOp3.setModel(new OperatorListModel());
 
@@ -196,7 +215,6 @@ public class ForLoopPopup extends javax.swing.JPanel {
                         .addGroup(forPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 614, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(forPaneLayout.createSequentialGroup()
-                                .addGap(0, 0, 0)
                                 .addComponent(forName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(forOp, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)

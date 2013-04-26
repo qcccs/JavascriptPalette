@@ -7,6 +7,7 @@ package org.netbeans.modules.filepalette.items.resources;
 import edu.mass.qcc.qcccodewizard.CheckVariableName;
 import edu.mass.qcc.qcccodewizard.CodeDrop;
 import edu.mass.qcc.qcccodewizard.GroupButtonUtils;
+import java.io.FileNotFoundException;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.text.BadLocationException;
@@ -328,23 +329,47 @@ public final class MainCodePopup extends JFrame {
         vCb4.setModel(new OperatorListModel());
 
         vCb3.setEditable(true);
-        vCb3.setModel(new VariableNameComboModel());
+        try{
+            vCb3.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb3.setToolTipText(org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.vCb3.toolTipText")); // NOI18N
 
         vCb5.setEditable(true);
-        vCb5.setModel(new VariableNameComboModel());
+        try{
+            vCb5.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb5.setToolTipText(org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.vCb5.toolTipText")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel1, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel1.text")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel2, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel2.text")); // NOI18N
 
-        vCb9.setModel(new VariableNameComboModel());
+        try{
+            vCb9.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel3, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel3.text")); // NOI18N
 
         vCb10.setEditable(true);
-        vCb10.setModel(new VariableNameComboModel());
+        try{
+            vCb10.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 vCb10ActionPerformed(evt);
@@ -361,18 +386,36 @@ public final class MainCodePopup extends JFrame {
         vCb6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Assignment", "=", "Arithmetic", "+", "-", "*", "/", "%", "Unary", "+", "-", "++", "--", "!", "Equality & Relational", "==", "!=", ">", ">=", "<", "<=", "Conditional", "&&", "||", "?:", "Bitwise and Shift", "~", "<<", ">>", ">>>", "&", "^", "|", " " }));
 
         vCb8.setEditable(true);
-        vCb8.setModel(new VariableNameComboModel());
+        try{
+            vCb8.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
         vCb8.setToolTipText(org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.vCb8.toolTipText")); // NOI18N
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel9, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel9.text")); // NOI18N
 
         vCb11.setEditable(true);
-        vCb11.setModel(new VariableNameComboModel());
+        try{
+            vCb11.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         vCb12.setModel(new OperatorListModel());
 
         vCb13.setEditable(true);
-        vCb13.setModel(new VariableNameComboModel());
+        try{
+            vCb13.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(decCb, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.decCb.text")); // NOI18N
 
@@ -618,12 +661,24 @@ public final class MainCodePopup extends JFrame {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel13, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel13.text")); // NOI18N
 
         whileName.setEditable(true);
-        whileName.setModel(new VariableNameComboModel());
+        try{
+            whileName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         whileOp.setModel(new OperatorListModel());
 
         whileValue.setEditable(true);
-        whileValue.setModel(new VariableNameComboModel());
+        try{
+            whileValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel14, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel14.text")); // NOI18N
 
@@ -726,12 +781,24 @@ public final class MainCodePopup extends JFrame {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel20, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel20.text")); // NOI18N
 
         doWhileName.setEditable(true);
-        doWhileName.setModel(new VariableNameComboModel());
+        try{
+            doWhileName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         doWhileOp.setModel(new OperatorListModel());
 
         doWhileValue.setEditable(true);
-        doWhileValue.setModel(new VariableNameComboModel());
+        try{
+            doWhileValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel26, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel26.text")); // NOI18N
 
@@ -799,25 +866,55 @@ public final class MainCodePopup extends JFrame {
         });
 
         forName.setEditable(true);
-        forName.setModel(new VariableNameComboModel());
+        try{
+            forName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         forOp.setModel(new OperatorListModel());
 
         forValue.setEditable(true);
-        forValue.setModel(new VariableNameComboModel());
+        try{
+            forValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel22, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel22.text")); // NOI18N
 
         forName2.setEditable(true);
-        forName2.setModel(new VariableNameComboModel());
+        try{
+            forName2.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         forOp2.setModel(new OperatorListModel());
 
         forConValue.setEditable(true);
-        forConValue.setModel(new VariableNameComboModel());
+        try{
+            forConValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         forName3.setEditable(true);
-        forName3.setModel(new VariableNameComboModel());
+        try{
+            forName3.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         forOp3.setModel(new OperatorListModel());
 
@@ -934,12 +1031,24 @@ public final class MainCodePopup extends JFrame {
         });
 
         forEachName.setEditable(true);
-        forEachName.setModel(new VariableNameComboModel());
+        try{
+            forEachName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel36, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel36.text")); // NOI18N
 
         forEachArrayName.setEditable(true);
-        forEachArrayName.setModel(new VariableNameComboModel());
+        try{
+            forEachArrayName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel37, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel37.text")); // NOI18N
 
@@ -1007,12 +1116,24 @@ public final class MainCodePopup extends JFrame {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel10, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel10.text")); // NOI18N
 
         ifVarName.setEditable(true);
-        ifVarName.setModel(new VariableNameComboModel());
+        try{
+            ifVarName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         ifVarOp.setModel(new OperatorListModel());
 
         ifVarValue.setEditable(true);
-        ifVarValue.setModel(new VariableNameComboModel());
+        try{
+            ifVarValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel11, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel11.text")); // NOI18N
 
@@ -1086,12 +1207,24 @@ public final class MainCodePopup extends JFrame {
         org.openide.awt.Mnemonics.setLocalizedText(jLabel16, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel16.text")); // NOI18N
 
         elseIfName.setEditable(true);
-        elseIfName.setModel(new VariableNameComboModel());
+        try{
+            elseIfName.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         elseIfOp.setModel(new OperatorListModel());
 
         elseIfValue.setEditable(true);
-        elseIfValue.setModel(new VariableNameComboModel());
+        try{
+            elseIfValue.setModel(new VariableNameComboModel());
+        }
+        catch(FileNotFoundException ex)
+        {
+
+        }
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel17, org.openide.util.NbBundle.getMessage(MainCodePopup.class, "MainCodePopup.jLabel17.text")); // NOI18N
 
@@ -1226,7 +1359,7 @@ public final class MainCodePopup extends JFrame {
         decPane.setLayout(decPaneLayout);
         decPaneLayout.setHorizontalGroup(
             decPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 908, Short.MAX_VALUE)
+            .addComponent(jTabbedPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 908, Short.MAX_VALUE)
         );
         decPaneLayout.setVerticalGroup(
             decPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1252,7 +1385,7 @@ public final class MainCodePopup extends JFrame {
                 .addGap(0, 0, 0))
         );
 
-        jPanel1.setBounds(0, 0, 0, 0);
+        jPanel1.setBounds(0, 0, 926, 277);
         jLayeredPane1.add(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
