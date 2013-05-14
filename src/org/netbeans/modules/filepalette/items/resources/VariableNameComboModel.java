@@ -50,7 +50,7 @@ class VariableNameComboModel extends AbstractListModel implements ComboBoxModel 
         for(int i = 0; i < words.length; i++){
             if(words[i].equals("var"))
             {
-                variableNamesArray.add("   " + words[i+1]);
+                variableNamesArray.add(words[i+1]);
             } 
             else {
                 

@@ -132,7 +132,7 @@ public class WhilePopup extends javax.swing.JPanel {
 
         }
 
-        whileOp.setModel(new OperatorListModel());
+        whileOp.setModel(new ComparativeOperatorList());
 
         whileValue.setEditable(true);
         try{

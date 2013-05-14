@@ -163,7 +163,7 @@ public class ForLoopPopup extends javax.swing.JPanel {
 
         org.openide.awt.Mnemonics.setLocalizedText(jLabel22, org.openide.util.NbBundle.getMessage(ForLoopPopup.class, "ForLoopPopup.jLabel22.text")); // NOI18N
 
-        forOp2.setModel(new OperatorListModel());
+        forOp2.setModel(new ComparativeOperatorList());
 
         forConValue.setEditable(true);
         try{

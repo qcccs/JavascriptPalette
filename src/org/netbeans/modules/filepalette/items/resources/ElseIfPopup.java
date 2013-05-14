@@ -128,7 +128,7 @@ public class ElseIfPopup extends javax.swing.JPanel {
 
         }
 
-        elseIfOp.setModel(new OperatorListModel());
+        elseIfOp.setModel(new ComparativeOperatorList());
 
         elseIfValue.setEditable(true);
         try{

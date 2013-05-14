@@ -133,7 +133,7 @@ public class IfStatementPopup extends javax.swing.JPanel {
 
         }
 
-        ifVarOp.setModel(new OperatorListModel());
+        ifVarOp.setModel(new ComparativeOperatorList());
 
         ifVarValue.setEditable(true);
         try{

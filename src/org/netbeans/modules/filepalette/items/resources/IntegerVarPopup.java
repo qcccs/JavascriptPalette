@@ -115,15 +115,6 @@ public class IntegerVarPopup extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         varPane = new javax.swing.JPanel();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
-        jRadioButton8 = new javax.swing.JRadioButton();
-        jRadioButton9 = new javax.swing.JRadioButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel33 = new javax.swing.JLabel();
         jLabel39 = new javax.swing.JLabel();
@@ -184,7 +175,7 @@ public class IntegerVarPopup extends javax.swing.JPanel {
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(expPaneLayout.createSequentialGroup()
                         .addComponent(jLabel41, javax.swing.GroupLayout.PREFERRED_SIZE, 447, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 53, Short.MAX_VALUE)
                         .addComponent(addVariableButton))))
         );
         expPaneLayout.setVerticalGroup(
@@ -210,43 +201,6 @@ public class IntegerVarPopup extends javax.swing.JPanel {
         varPane.setBorder(javax.swing.BorderFactory.createTitledBorder(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.varPane.border.title"))); // NOI18N
         varPane.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.varPane.toolTipText")); // NOI18N
 
-        buttonGroup1.add(jRadioButton1);
-        jRadioButton1.setSelected(true);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton1, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton1.text")); // NOI18N
-        jRadioButton1.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton1.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton2);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton2, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton2.text")); // NOI18N
-        jRadioButton2.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton2.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton3);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton3, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton3.text")); // NOI18N
-        jRadioButton3.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton3.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton4);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton4, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton4.text")); // NOI18N
-        jRadioButton4.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton4.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton5);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton5, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton5.text")); // NOI18N
-        jRadioButton5.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton5.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton6);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton6, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton6.text")); // NOI18N
-        jRadioButton6.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton6.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton7);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton7, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton7.text")); // NOI18N
-        jRadioButton7.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton7.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton8);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton8, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton8.text")); // NOI18N
-        jRadioButton8.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton8.toolTipText")); // NOI18N
-
-        buttonGroup1.add(jRadioButton9);
-        org.openide.awt.Mnemonics.setLocalizedText(jRadioButton9, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton9.text")); // NOI18N
-        jRadioButton9.setToolTipText(org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jRadioButton9.toolTipText")); // NOI18N
-
         org.openide.awt.Mnemonics.setLocalizedText(jLabel4, org.openide.util.NbBundle.getMessage(IntegerVarPopup.class, "IntegerVarPopup.jLabel4.text")); // NOI18N
 
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/edu/mass/qcc/qcccodewizard/Question.png"))); // NOI18N
@@ -266,53 +220,23 @@ public class IntegerVarPopup extends javax.swing.JPanel {
         varPaneLayout.setHorizontalGroup(
             varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(varPaneLayout.createSequentialGroup()
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(varPaneLayout.createSequentialGroup()
-                        .addComponent(jRadioButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jRadioButton3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jRadioButton6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jRadioButton7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jRadioButton9))
-                    .addGroup(varPaneLayout.createSequentialGroup()
-                        .addComponent(jLabel4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(varNameCombo1, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel39)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(varNameCombo1, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel39)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel33))
         );
         varPaneLayout.setVerticalGroup(
             varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(varPaneLayout.createSequentialGroup()
-                .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton6)
-                    .addComponent(jRadioButton7)
-                    .addComponent(jRadioButton8)
-                    .addComponent(jRadioButton9))
-                .addGap(0, 6, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(varPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
-                    .addComponent(jLabel39)
-                    .addComponent(varNameCombo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(2, 2, 2))
+                    .addComponent(varNameCombo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel39))
+                .addGap(30, 30, 30))
             .addGroup(varPaneLayout.createSequentialGroup()
                 .addComponent(jLabel33)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -340,10 +264,9 @@ public class IntegerVarPopup extends javax.swing.JPanel {
                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(varPane, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(expPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0))
+                .addComponent(varPane, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(expPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -424,6 +347,7 @@ public class IntegerVarPopup extends javax.swing.JPanel {
         // Help Page
         OpenHelpUrl o = new OpenHelpUrl("http://www.w3schools.com/js/js_ex_dom.asp");
     }//GEN-LAST:event_jLabel33MouseClicked
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addVariableButton;
     private javax.swing.ButtonGroup buttonGroup1;
@@ -433,15 +357,6 @@ public class IntegerVarPopup extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel41;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
-    private javax.swing.JRadioButton jRadioButton8;
-    private javax.swing.JRadioButton jRadioButton9;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JComboBox vCb4;
     private javax.swing.JComboBox vCb5;

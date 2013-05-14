@@ -144,7 +144,7 @@ public class DoWhilePopup extends javax.swing.JPanel {
 
         }
 
-        doWhileOp.setModel(new OperatorListModel());
+        doWhileOp.setModel(new ComparativeOperatorList());
 
         doWhileValue.setEditable(true);
         try{
@@ -252,6 +252,7 @@ public class DoWhilePopup extends javax.swing.JPanel {
             String varBody = doBody.getText();
 
             CheckVariableName cvn = new CheckVariableName();
+            System.out.println(varName);
             if (cvn.isGood(varName)) {
                 //If name is valid, add it to the editor.
                 System.out.println("Valid Variable Name");
